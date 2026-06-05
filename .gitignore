@@ -69,8 +69,8 @@ Thumbs.db
 *.tmp
 *.temp
 
-# --- Project docs (local only) ---
-docs/
+# --- Project docs (local only; root folder only — not src/components/docs) ---
+/docs/
 Log/
 logs/
 FIX_DOCUMENTATION/
