@@ -1,0 +1,308 @@
+/* Custom Tailwind Components */
+@layer components {
+  /* App Layout */
+  .app-layout {
+    @apply flex min-h-screen;
+  }
+
+  .sidebar {
+    @apply w-64 bg-white border-r border-secondary-200 flex flex-col;
+  }
+
+  .sidebar-header {
+    @apply p-6 border-b border-secondary-200;
+  }
+
+  .sidebar-nav {
+    @apply flex-1 py-4;
+  }
+
+  .nav-item {
+    @apply flex items-center gap-3 px-6 py-3 text-secondary-500 no-underline transition-all duration-200;
+    @apply hover:bg-secondary-100 hover:text-secondary-700;
+  }
+
+  .nav-item.active {
+    @apply bg-primary-500 text-white hover:bg-primary-600 hover:text-white;
+  }
+
+  .main-content {
+    @apply flex-1 flex flex-col;
+  }
+
+  .content-wrapper {
+    @apply flex-1 p-8;
+  }
+
+  /* Page Styles */
+  .page-header {
+    @apply mb-8;
+  }
+
+  .page-title {
+    @apply text-3xl font-bold text-secondary-900 mb-2;
+  }
+
+  .page-subtitle {
+    @apply text-secondary-600 text-lg;
+  }
+
+  /* Dashboard Styles */
+  .stats-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-6 mb-8;
+  }
+
+  .stat-card {
+    @apply bg-white border border-secondary-200 rounded-xl p-6 flex items-center gap-4;
+  }
+
+  .stat-icon {
+    @apply w-12 h-12 bg-primary-500 rounded-lg flex items-center justify-center text-white;
+  }
+
+  .stat-content {
+    @apply flex-1;
+  }
+
+  .stat-value {
+    @apply text-3xl font-bold text-secondary-900 mb-1;
+  }
+
+  .stat-label {
+    @apply text-secondary-600 text-sm;
+  }
+
+  .section-header {
+    @apply flex items-center justify-between mb-6;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold text-secondary-900;
+  }
+
+  .activity-list {
+    @apply bg-white border border-secondary-200 rounded-xl overflow-hidden;
+  }
+
+  .activity-item {
+    @apply flex items-center justify-between px-6 py-4 border-b border-secondary-200 last:border-b-0;
+  }
+
+  .activity-content {
+    @apply flex-1;
+  }
+
+  .activity-action {
+    @apply font-medium text-secondary-900 mb-1;
+  }
+
+  .activity-template {
+    @apply text-secondary-600 text-sm;
+  }
+
+  .activity-time {
+    @apply text-secondary-600 text-sm;
+  }
+
+  /* Template Builder Styles */
+  .page-actions {
+    @apply flex items-center justify-between mb-8 gap-4;
+  }
+
+  .search-section {
+    @apply flex items-center gap-4;
+  }
+
+  .search-input {
+    @apply relative;
+  }
+
+  .search-input input {
+    @apply pl-10 pr-4 py-3 border border-secondary-200 rounded-lg bg-white text-secondary-900 w-80;
+    @apply focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent;
+  }
+
+  .search-input svg {
+    @apply absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-secondary-500;
+  }
+
+  .view-controls {
+    @apply flex items-center gap-2;
+  }
+
+  .view-btn {
+    @apply p-2 border border-secondary-200 bg-white rounded-md cursor-pointer transition-all duration-200;
+    @apply hover:bg-secondary-100;
+  }
+
+  .view-btn.active {
+    @apply bg-primary-500 text-white border-primary-500 hover:bg-primary-600;
+  }
+
+  .templates-grid {
+    @apply grid gap-6;
+  }
+
+  .templates-grid.grid {
+    @apply grid-cols-1 md:grid-cols-2 lg:grid-cols-3;
+  }
+
+  .templates-grid.list {
+    @apply grid-cols-1;
+  }
+
+  .template-card {
+    @apply bg-white border border-secondary-200 rounded-xl p-6 transition-all duration-200;
+    @apply hover:shadow-soft-lg hover:-translate-y-1;
+  }
+
+  .template-header {
+    @apply flex items-center justify-between mb-4;
+  }
+
+  .template-name {
+    @apply text-lg font-semibold text-secondary-900;
+  }
+
+  .template-status {
+    @apply px-3 py-1 rounded-full text-xs font-medium;
+  }
+
+  .template-status.active {
+    @apply bg-success-100 text-success-800;
+  }
+
+  .template-status.draft {
+    @apply bg-warning-100 text-warning-800;
+  }
+
+  .template-meta {
+    @apply flex gap-4 mb-6 text-sm text-secondary-600;
+  }
+
+  .template-actions {
+    @apply flex gap-3;
+  }
+
+  .template-actions .btn {
+    @apply flex-1;
+  }
+
+  /* Empty State */
+  .empty-state {
+    @apply text-center py-16 px-8 text-secondary-600;
+  }
+
+  .empty-state h3 {
+    @apply text-2xl font-semibold text-secondary-900 mb-2;
+  }
+
+  /* Builder Styles */
+  .builder-content {
+    @apply grid grid-cols-[250px_1fr_250px] gap-4;
+    @apply h-[calc(100vh-200px)];
+  }
+
+  .builder-sidebar,
+  .builder-properties {
+    @apply bg-white border border-secondary-200 rounded-xl p-6;
+  }
+
+  .builder-canvas {
+    @apply bg-white border border-secondary-200 rounded-xl p-6 flex items-center justify-center;
+  }
+
+  .builder-panel {
+    @apply bg-white border border-secondary-200 rounded-xl p-8 text-center;
+  }
+
+  /* Components Grid */
+  .components-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6;
+  }
+
+  .component-card {
+    @apply bg-white border border-secondary-200 rounded-xl p-6 text-center;
+  }
+
+  .component-card h3 {
+    @apply text-lg font-semibold text-secondary-900 mb-2;
+  }
+
+  .component-card p {
+    @apply text-secondary-600 text-sm;
+  }
+
+  /* Test Area */
+  .test-area {
+    @apply bg-white border border-secondary-200 rounded-xl p-8 text-center;
+  }
+
+  .test-area h3 {
+    @apply text-2xl font-semibold text-secondary-900 mb-2;
+  }
+
+.test-area p {
+  @apply text-secondary-600;
+}
+}
+
+.email-preview-container {
+  position: relative;
+  padding: 32px;
+  background-color: #f1f5f9;
+  border-radius: 16px;
+}
+
+.email-preview-container .email-preview-canvas {
+  min-height: 800px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 35px 60px rgba(15, 23, 42, 0.08);
+  overflow: hidden;
+}
+
+.editable-element {
+  outline: 2px solid transparent;
+  transition: outline-color 120ms ease, box-shadow 120ms ease;
+}
+
+.editable-element:hover {
+  outline-color: rgba(37, 99, 235, 0.35);
+  cursor: text;
+}
+
+.editable-element[data-element-type='image']:hover,
+.editable-element[data-element-type='button']:hover,
+.editable-element[data-element-type='link']:hover,
+.editable-element[data-element-type='section']:hover {
+  cursor: pointer;
+}
+
+/* Make price and text elements more clickable */
+.editable-element[data-element-type='text'] {
+  display: inline-block;
+  min-width: 1px;
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.editable-element[data-element-type='text']:hover {
+  cursor: text;
+  background-color: rgba(37, 99, 235, 0.05);
+}
+
+/* Note: Pointer events for text elements inside table cells are handled in JavaScript */
+/* to avoid blocking clicks for other elements */
+
+.editable-element.editable-selected,
+.editable-element:focus {
+  outline-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.35);
+}
+
+.editable-disabled {
+  pointer-events: none;
+  cursor: default !important;
+}

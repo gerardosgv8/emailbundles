@@ -1,0 +1,86 @@
+    /* Dark/light mode overrides (supports prefers-color-scheme) */
+    @media (prefers-color-scheme: light) {
+      body { background-color: #ffffff !important; }
+      body, table:not([data-user-bg-color]), td:not([data-user-bg-color]), tr:not([data-user-bg-color]) { background-color: #ffffff !important; }
+      p:not([style*="color"]):not([data-user-bg-color]), a:not([style*="color"]):not([data-user-bg-color]), li:not([style*="color"]):not([data-user-bg-color]), blockquote:not([style*="color"]):not([data-user-bg-color]), span:not([style*="color"]):not([data-user-bg-color]), div:not([style*="color"]):not([data-user-bg-color]),
+      h1:not([style*="color"]):not([data-user-bg-color]), h2:not([style*="color"]):not([data-user-bg-color]), h3:not([style*="color"]):not([data-user-bg-color]), h4:not([style*="color"]):not([data-user-bg-color]), h5:not([style*="color"]):not([data-user-bg-color]), h6:not([style*="color"]):not([data-user-bg-color]) { color: #111827 !important; }
+      a:not([style*="color"]):not([data-user-bg-color]) { color: #2563eb !important; }
+      /* Keep CTA/button text white by default */
+      td[data-element*="button"] a:not([style*="color"]):not([data-user-bg-color]),
+      td[data-element*="cta"] a:not([style*="color"]):not([data-user-bg-color]),
+      a[data-element*="button"]:not([style*="color"]):not([data-user-bg-color]),
+      a[data-element*="cta"]:not([style*="color"]):not([data-user-bg-color]) {
+        color: #ffffff !important;
+      }
+      td[style*="background-color"][style*="border-radius"] a:not([style*="color"]):not([data-user-bg-color]),
+      a[style*="background-color"][style*="display: inline-block"]:not([style*="color"]):not([data-user-bg-color]) {
+        color: #ffffff !important;
+      }
+
+      /* Flip inline black backgrounds to light */
+      *[style*="background-color: #000000"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color:#000000"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color: #000"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color:#000"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color:black"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color: rgb(0, 0, 0)"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color:rgb(0,0,0)"]:not([data-user-text-color]):not([data-user-bg-color]) {
+        background-color: #ffffff !important;
+        color: #111827 !important;
+      }
+
+      [data-user-bg-color] p:not([data-user-text-color]),
+      [data-user-bg-color] a:not([data-user-text-color]):not([data-element*="cta"]):not([data-element*="button"]):not([style*="background-color"]),
+      [data-user-bg-color] li:not([data-user-text-color]),
+      [data-user-bg-color] blockquote:not([data-user-text-color]),
+      [data-user-bg-color] span:not([data-user-text-color]),
+      [data-user-bg-color] div:not([data-user-text-color]),
+      [data-user-bg-color] h1:not([data-user-text-color]),
+      [data-user-bg-color] h2:not([data-user-text-color]),
+      [data-user-bg-color] h3:not([data-user-text-color]),
+      [data-user-bg-color] h4:not([data-user-text-color]),
+      [data-user-bg-color] h5:not([data-user-text-color]),
+      [data-user-bg-color] h6:not([data-user-text-color]),
+      [data-user-bg-color] th:not([data-user-text-color]),
+      [data-user-bg-color] td:not([data-user-text-color]) {
+        color: unset !important;
+      }
+    }
+    [data-preview-theme="light"] {
+      background-color: #ffffff !important;
+    }
+    [data-preview-theme="light"] body, [data-preview-theme="light"] table:not([data-user-bg-color]), [data-preview-theme="light"] td:not([data-user-bg-color]), [data-preview-theme="light"] tr:not([data-user-bg-color]) {
+      background-color: #ffffff !important;
+    }
+    [data-preview-theme="light"] p:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] a:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] li:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] blockquote:not([style*="color"]):not([data-user-bg-color]),
+    [data-preview-theme="light"] span:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] div:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] h1:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] h2:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] h3:not([style*="color"]):not([data-user-bg-color]),
+    [data-preview-theme="light"] h4:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] h5:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] h6:not([style*="color"]):not([data-user-bg-color]) {
+      color: #111827 !important;
+    }
+    [data-preview-theme="light"] a:not([style*="color"]):not([data-user-bg-color]) { color: #2563eb !important; }
+    [data-preview-theme="light"] td[data-element*="button"] a:not([style*="color"]):not([data-user-bg-color]),
+    [data-preview-theme="light"] td[data-element*="cta"] a:not([style*="color"]):not([data-user-bg-color]),
+    [data-preview-theme="light"] a[data-element*="button"]:not([style*="color"]):not([data-user-bg-color]),
+    [data-preview-theme="light"] a[data-element*="cta"]:not([style*="color"]):not([data-user-bg-color]) {
+      color: #ffffff !important;
+    }
+    [data-preview-theme="light"] td[style*="background-color"][style*="border-radius"] a:not([style*="color"]):not([data-user-bg-color]),
+    [data-preview-theme="light"] a[style*="background-color"][style*="display: inline-block"]:not([style*="color"]):not([data-user-bg-color]) {
+      color: #ffffff !important;
+    }
+    [data-preview-theme="light"] [data-user-bg-color] p:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] a:not([data-user-text-color]):not([data-element*="cta"]):not([data-element*="button"]):not([style*="background-color"]),
+    [data-preview-theme="light"] [data-user-bg-color] li:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] blockquote:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] span:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] div:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] h1:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] h2:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] h3:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] h4:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] h5:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] h6:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] th:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] td:not([data-user-text-color]) {
+      color: unset !important;
+    }

@@ -1,0 +1,317 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased;
+  }
+  
+  #root {
+    @apply min-h-screen flex flex-col;
+  }
+}
+
+@layer components {
+  /* Enhanced Button System */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl text-sm font-semibold transition-all duration-300 cursor-pointer;
+    @apply bg-primary-500 text-white hover:bg-primary-600 hover:-translate-y-1 hover:shadow-xl;
+    @apply focus:outline-none focus:ring-4 focus:ring-primary-200 focus:ring-opacity-50;
+    @apply active:translate-y-0 active:shadow-lg;
+    @apply disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:hover:shadow-none;
+    /* Override Tailwind reset */
+    background-color: rgb(59 130 246) !important;
+    background-image: none !important;
+  }
+  
+  .btn-secondary {
+    @apply bg-blue-50 text-blue-700 border-2 border-blue-200 hover:bg-blue-100 hover:border-blue-300 hover:text-blue-700 rounded-2xl;
+    @apply hover:-translate-y-1 hover:shadow-lg focus:ring-blue-200;
+    background-color: rgb(239 246 255) !important;
+    background-image: none !important;
+    color: rgb(29 78 216) !important;
+  }
+  
+  .btn-secondary:hover {
+    color: rgb(29 78 216) !important;
+  }
+  
+  .btn-success {
+    @apply bg-blue-500 text-white hover:bg-blue-600 hover:-translate-y-1 hover:shadow-xl rounded-2xl;
+    @apply focus:ring-blue-200;
+    background-color: rgb(59 130 246) !important;
+    background-image: none !important;
+  }
+  
+  .btn-warning {
+    @apply bg-blue-500 text-white hover:bg-blue-600 hover:-translate-y-1 hover:shadow-xl rounded-2xl;
+    @apply focus:ring-blue-200;
+    background-color: rgb(59 130 246) !important;
+    background-image: none !important;
+  }
+  
+  .btn-error {
+    @apply bg-blue-500 text-white hover:bg-blue-600 hover:-translate-y-1 hover:shadow-xl rounded-2xl;
+    @apply focus:ring-blue-200;
+    background-color: rgb(59 130 246) !important;
+    background-image: none !important;
+  }
+  
+  .btn-outline {
+    @apply bg-transparent text-primary-500 border-2 border-primary-500 hover:bg-primary-500 hover:text-primary-500 rounded-2xl;
+    @apply hover:-translate-y-1 hover:shadow-xl focus:ring-primary-200;
+    @apply transition-all duration-300 cursor-pointer;
+    background-color: transparent !important;
+    background-image: none !important;
+    color: rgb(59 130 246) !important;
+  }
+  
+  .btn-outline:hover {
+    color: rgb(59 130 246) !important;
+    transform: translateY(-0.25rem) !important;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1) !important;
+  }
+  
+  .btn-ghost {
+    @apply bg-transparent text-blue-600 hover:bg-blue-100 hover:text-blue-900 rounded-2xl;
+    @apply hover:-translate-y-0.5 hover:shadow-md focus:ring-blue-200;
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+  
+  /* Button Sizes */
+  .btn-sm {
+    @apply px-4 py-2 text-xs;
+  }
+  
+  .btn-lg {
+    @apply px-8 py-4 text-base;
+  }
+  
+  .btn-xl {
+    @apply px-10 py-5 text-lg;
+  }
+  
+  /* Special CTA Styles */
+  .btn-cta {
+    @apply bg-gradient-to-r from-primary-500 to-primary-600 text-white font-bold rounded-2xl;
+    @apply hover:from-primary-600 hover:to-primary-700 hover:-translate-y-1 hover:shadow-2xl;
+    @apply focus:ring-4 focus:ring-primary-200 focus:ring-opacity-50;
+    @apply transform transition-all duration-300 ease-out;
+    @apply shadow-lg hover:shadow-2xl;
+    background-image: linear-gradient(to right, rgb(59 130 246), rgb(37 99 235)) !important;
+  }
+  
+  .btn-cta-secondary {
+    @apply bg-gradient-to-r from-blue-100 to-blue-200 text-blue-800 font-bold rounded-2xl;
+    @apply hover:from-blue-200 hover:to-blue-300 hover:-translate-y-1 hover:shadow-xl;
+    @apply focus:ring-4 focus:ring-blue-200 focus:ring-opacity-50;
+    @apply border border-blue-300;
+    background-image: linear-gradient(to right, rgb(219 234 254), rgb(191 219 254)) !important;
+  }
+  
+  /* Icon Buttons */
+  .btn-icon {
+    @apply p-3 rounded-full;
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+  
+  .btn-icon-sm {
+    @apply p-2;
+  }
+  
+  .btn-icon-lg {
+    @apply p-4;
+  }
+  
+  /* Icon Button Combinations */
+  .btn-icon.btn-ghost {
+    @apply bg-transparent text-blue-600 hover:bg-blue-100 hover:text-blue-900 rounded-2xl;
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+  
+  .btn-icon.btn-secondary {
+    @apply bg-blue-50 text-blue-700 border-2 border-blue-200 hover:bg-blue-100 hover:border-blue-300 hover:text-blue-700 rounded-2xl;
+    background-color: rgb(239 246 255) !important;
+    background-image: none !important;
+    color: rgb(29 78 216) !important;
+  }
+  
+  .btn-icon.btn-secondary:hover {
+    color: rgb(29 78 216) !important;
+  }
+  
+  .btn-icon.btn {
+    @apply bg-blue-500 text-white hover:bg-blue-600 rounded-2xl;
+    background-color: rgb(59 130 246) !important;
+    background-image: none !important;
+  }
+  
+  /* Ensure all button combinations work */
+  .btn-secondary.flex-1 {
+    @apply bg-blue-50 text-blue-700 border-2 border-blue-200 hover:bg-blue-100 hover:border-blue-300 hover:text-blue-700 rounded-2xl;
+    background-color: rgb(239 246 255) !important;
+    background-image: none !important;
+    color: rgb(29 78 216) !important;
+  }
+  
+  .btn-secondary.flex-1:hover {
+    color: rgb(29 78 216) !important;
+  }
+  
+  .btn-ghost.flex-1 {
+    @apply bg-transparent text-blue-600 hover:bg-blue-100 hover:text-blue-900 rounded-2xl;
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+  
+  .btn-icon.btn-ghost.flex-1 {
+    @apply bg-transparent text-blue-600 hover:bg-blue-100 hover:text-blue-900 rounded-2xl;
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+  
+  /* Loading State */
+  .btn-loading {
+    @apply relative;
+  }
+  
+  .btn-loading::after {
+    content: '';
+    @apply absolute inset-0 flex items-center justify-center;
+    @apply w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin;
+  }
+  
+  .btn-loading:disabled {
+    @apply opacity-75 cursor-not-allowed;
+  }
+  
+  /* Card Enhancements */
+  .card {
+    @apply bg-white border border-secondary-200 rounded-xl p-6 shadow-soft;
+    @apply hover:shadow-lg transition-all duration-300;
+  }
+  
+  .card-hover {
+    @apply hover:-translate-y-1 hover:shadow-xl cursor-pointer;
+  }
+  
+  .container {
+    @apply max-w-7xl mx-auto px-4;
+  }
+
+  /* Slider Styles */
+  input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 4px;
+    outline: none;
+    transition: background 0.3s ease;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #3b82f6;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+  }
+
+  input[type="range"]::-webkit-slider-thumb:hover {
+    background: #2563eb;
+    transform: scale(1.1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  input[type="range"]::-webkit-slider-thumb:active {
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #3b82f6;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+  }
+
+  input[type="range"]::-moz-range-thumb:hover {
+    background: #2563eb;
+    transform: scale(1.1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  input[type="range"]::-moz-range-thumb:active {
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+
+  input[type="range"]::-moz-range-track {
+    height: 8px;
+    border-radius: 4px;
+  }
+
+  /* Color Picker Styles */
+  input[type="color"] {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+
+  input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+  }
+
+  input[type="color"]::-webkit-color-swatch {
+    border: 2px solid #d1d5db;
+    border-radius: 6px;
+  }
+
+  input[type="color"]:hover {
+    transform: scale(1.05);
+  }
+
+  /* Public site + header: .btn-secondary / .btn-outline use fixed light colors with !important */
+  .dark .btn-secondary,
+  .dark .btn-icon.btn-secondary,
+  .dark .btn-secondary.flex-1 {
+    background-color: rgb(30 41 59 / 0.85) !important;
+    color: rgb(191 219 254) !important;
+    border-color: rgb(51 65 85) !important;
+  }
+
+  .dark .btn-secondary:hover,
+  .dark .btn-icon.btn-secondary:hover,
+  .dark .btn-secondary.flex-1:hover {
+    background-color: rgb(51 65 85) !important;
+    color: rgb(219 234 254) !important;
+    border-color: rgb(71 85 105) !important;
+  }
+
+  .dark .btn-outline {
+    color: rgb(147 197 253) !important;
+    border-color: rgb(59 130 246 / 0.7) !important;
+  }
+
+  .dark .btn-outline:hover {
+    background-color: rgb(37 99 235) !important;
+    color: rgb(255 255 255) !important;
+    border-color: rgb(59 130 246) !important;
+  }
+}

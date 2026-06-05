@@ -1,0 +1,252 @@
+    /* Dark/light mode overrides (supports prefers-color-scheme) */
+    @media (prefers-color-scheme: dark) {
+      html { background-color: #0b1220 !important; }
+      body { background-color: #0b1220 !important; }
+      body, table:not([data-user-bg-color]), td:not([data-user-bg-color]), tr:not([data-user-bg-color]) { background-color: #0b1220 !important; }
+      /* Default dark mode: white text. Skip nodes the user explicitly colored (data-user-text-color). */
+      p:not([data-user-text-color]):not([data-user-bg-color]), li:not([data-user-text-color]):not([data-user-bg-color]), blockquote:not([data-user-text-color]):not([data-user-bg-color]),
+      span:not([data-user-text-color]):not([data-user-bg-color]), div:not([data-user-text-color]):not([data-user-bg-color]), h1:not([data-user-text-color]):not([data-user-bg-color]),
+      h2:not([data-user-text-color]):not([data-user-bg-color]), h3:not([data-user-text-color]):not([data-user-bg-color]), h4:not([data-user-text-color]):not([data-user-bg-color]),
+      h5:not([data-user-text-color]):not([data-user-bg-color]), h6:not([data-user-text-color]):not([data-user-bg-color]), th:not([data-user-text-color]):not([data-user-bg-color]),
+      td:not([data-user-text-color]):not([data-user-bg-color]), a:not([data-user-text-color]):not([data-user-bg-color]):not([data-element*="cta"]):not([data-element*="button"]) {
+        color: #ffffff !important;
+      }
+      /* Footer: white unless user picked a custom text color on that node */
+      [data-element^="footer-"]:not([data-user-text-color]):not([data-user-bg-color]),
+      [data-element^="footer-"] *:not([data-user-text-color]):not([data-user-bg-color]),
+      td[data-element*="footer"]:not([data-user-text-color]):not([data-user-bg-color]),
+      td[data-element*="footer"] *:not([data-user-text-color]):not([data-user-bg-color]),
+      a[data-element^="footer-"]:not([data-user-text-color]):not([data-user-bg-color]),
+      p[data-element^="footer-"]:not([data-user-text-color]):not([data-user-bg-color]),
+      span[data-element^="footer-"]:not([data-user-text-color]):not([data-user-bg-color]) {
+        color: #ffffff !important;
+      }
+      /* Keep CTA/button text white by default */
+      td[data-element*="button"] a:not([style*="color"]):not([data-user-text-color]):not([data-user-bg-color]),
+      td[data-element*="cta"] a:not([style*="color"]):not([data-user-text-color]):not([data-user-bg-color]),
+      a[data-element*="button"]:not([style*="color"]):not([data-user-text-color]):not([data-user-bg-color]),
+      a[data-element*="cta"]:not([style*="color"]):not([data-user-text-color]):not([data-user-bg-color]) {
+        color: #ffffff !important;
+      }
+      /* Also catch template buttons that are not labeled with button/cta data-element names */
+      td[style*="background-color"][style*="border-radius"] a:not([style*="color"]):not([data-user-text-color]):not([data-user-bg-color]),
+      a[style*="background-color"][style*="display: inline-block"]:not([style*="color"]):not([data-user-text-color]):not([data-user-bg-color]) {
+        color: #ffffff !important;
+      }
+
+      /* Text-element background fallback: flip light inline backgrounds to dark in dark mode */
+      p[style*="background-color: #ffffff"]:not([data-user-bg-color]), p[style*="background-color:#ffffff"]:not([data-user-bg-color]), p[style*="background-color: #fff"]:not([data-user-bg-color]), p[style*="background-color:#fff"]:not([data-user-bg-color]),
+      span[style*="background-color: #ffffff"]:not([data-user-bg-color]), span[style*="background-color:#ffffff"]:not([data-user-bg-color]), span[style*="background-color: #fff"]:not([data-user-bg-color]), span[style*="background-color:#fff"]:not([data-user-bg-color]),
+      div[style*="background-color: #ffffff"]:not([data-user-bg-color]), div[style*="background-color:#ffffff"]:not([data-user-bg-color]), div[style*="background-color: #fff"]:not([data-user-bg-color]), div[style*="background-color:#fff"]:not([data-user-bg-color]),
+      li[style*="background-color: #ffffff"]:not([data-user-bg-color]), li[style*="background-color:#ffffff"]:not([data-user-bg-color]), li[style*="background-color: #fff"]:not([data-user-bg-color]), li[style*="background-color:#fff"]:not([data-user-bg-color]),
+      blockquote[style*="background-color: #ffffff"]:not([data-user-bg-color]), blockquote[style*="background-color:#ffffff"]:not([data-user-bg-color]), blockquote[style*="background-color: #fff"]:not([data-user-bg-color]), blockquote[style*="background-color:#fff"]:not([data-user-bg-color]),
+      h1[style*="background-color: #ffffff"]:not([data-user-bg-color]), h1[style*="background-color:#ffffff"]:not([data-user-bg-color]), h1[style*="background-color: #fff"]:not([data-user-bg-color]), h1[style*="background-color:#fff"]:not([data-user-bg-color]),
+      h2[style*="background-color: #ffffff"]:not([data-user-bg-color]), h2[style*="background-color:#ffffff"]:not([data-user-bg-color]), h2[style*="background-color: #fff"]:not([data-user-bg-color]), h2[style*="background-color:#fff"]:not([data-user-bg-color]),
+      h3[style*="background-color: #ffffff"]:not([data-user-bg-color]), h3[style*="background-color:#ffffff"]:not([data-user-bg-color]), h3[style*="background-color: #fff"]:not([data-user-bg-color]), h3[style*="background-color:#fff"]:not([data-user-bg-color]),
+      h4[style*="background-color: #ffffff"]:not([data-user-bg-color]), h4[style*="background-color:#ffffff"]:not([data-user-bg-color]), h4[style*="background-color: #fff"]:not([data-user-bg-color]), h4[style*="background-color:#fff"]:not([data-user-bg-color]),
+      h5[style*="background-color: #ffffff"]:not([data-user-bg-color]), h5[style*="background-color:#ffffff"]:not([data-user-bg-color]), h5[style*="background-color: #fff"]:not([data-user-bg-color]), h5[style*="background-color:#fff"]:not([data-user-bg-color]),
+      h6[style*="background-color: #ffffff"]:not([data-user-bg-color]), h6[style*="background-color:#ffffff"]:not([data-user-bg-color]), h6[style*="background-color: #fff"]:not([data-user-bg-color]), h6[style*="background-color:#fff"]:not([data-user-bg-color]),
+      a[style*="background-color: #ffffff"]:not([data-user-bg-color]), a[style*="background-color:#ffffff"]:not([data-user-bg-color]), a[style*="background-color: #fff"]:not([data-user-bg-color]), a[style*="background-color:#fff"]:not([data-user-bg-color]) {
+        background-color: #0b1220 !important;
+      }
+
+      /* Flip inline white backgrounds to dark */
+      *[style*="background-color: #ffffff"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color:#ffffff"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color: #fff"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color:#fff"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color:white"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color: rgb(255, 255, 255)"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color:rgb(255,255,255)"]:not([data-user-text-color]):not([data-user-bg-color]) {
+        background-color: #0b1220 !important;
+        color: #ffffff !important;
+      }
+
+      /* Descendants of custom component backgrounds: theme text rules target p/a/etc. without the
+         attribute on the same node; ancestor td/table may carry data-user-bg-color instead. */
+      [data-user-bg-color] p:not([data-user-text-color]),
+      [data-user-bg-color] a:not([data-user-text-color]):not([data-element*="cta"]):not([data-element*="button"]):not([style*="background-color"]),
+      [data-user-bg-color] li:not([data-user-text-color]),
+      [data-user-bg-color] blockquote:not([data-user-text-color]),
+      [data-user-bg-color] span:not([data-user-text-color]),
+      [data-user-bg-color] div:not([data-user-text-color]),
+      [data-user-bg-color] h1:not([data-user-text-color]),
+      [data-user-bg-color] h2:not([data-user-text-color]),
+      [data-user-bg-color] h3:not([data-user-text-color]),
+      [data-user-bg-color] h4:not([data-user-text-color]),
+      [data-user-bg-color] h5:not([data-user-text-color]),
+      [data-user-bg-color] h6:not([data-user-text-color]),
+      [data-user-bg-color] th:not([data-user-text-color]),
+      [data-user-bg-color] td:not([data-user-text-color]) {
+        color: unset !important;
+      }
+    }
+    @media (prefers-color-scheme: light) {
+      body { background-color: #ffffff !important; }
+      body, table:not([data-user-bg-color]), td:not([data-user-bg-color]), tr:not([data-user-bg-color]) { background-color: #ffffff !important; }
+      p:not([style*="color"]):not([data-user-bg-color]), a:not([style*="color"]):not([data-user-bg-color]), li:not([style*="color"]):not([data-user-bg-color]), blockquote:not([style*="color"]):not([data-user-bg-color]), span:not([style*="color"]):not([data-user-bg-color]), div:not([style*="color"]):not([data-user-bg-color]),
+      h1:not([style*="color"]):not([data-user-bg-color]), h2:not([style*="color"]):not([data-user-bg-color]), h3:not([style*="color"]):not([data-user-bg-color]), h4:not([style*="color"]):not([data-user-bg-color]), h5:not([style*="color"]):not([data-user-bg-color]), h6:not([style*="color"]):not([data-user-bg-color]) { color: #111827 !important; }
+      a:not([style*="color"]):not([data-user-bg-color]) { color: #2563eb !important; }
+      /* Keep CTA/button text white by default */
+      td[data-element*="button"] a:not([style*="color"]):not([data-user-bg-color]),
+      td[data-element*="cta"] a:not([style*="color"]):not([data-user-bg-color]),
+      a[data-element*="button"]:not([style*="color"]):not([data-user-bg-color]),
+      a[data-element*="cta"]:not([style*="color"]):not([data-user-bg-color]) {
+        color: #ffffff !important;
+      }
+      td[style*="background-color"][style*="border-radius"] a:not([style*="color"]):not([data-user-bg-color]),
+      a[style*="background-color"][style*="display: inline-block"]:not([style*="color"]):not([data-user-bg-color]) {
+        color: #ffffff !important;
+      }
+
+      /* Flip inline black backgrounds to light */
+      *[style*="background-color: #000000"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color:#000000"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color: #000"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color:#000"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color:black"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color: rgb(0, 0, 0)"]:not([data-user-text-color]):not([data-user-bg-color]),
+      *[style*="background-color:rgb(0,0,0)"]:not([data-user-text-color]):not([data-user-bg-color]) {
+        background-color: #ffffff !important;
+        color: #111827 !important;
+      }
+
+      [data-user-bg-color] p:not([data-user-text-color]),
+      [data-user-bg-color] a:not([data-user-text-color]):not([data-element*="cta"]):not([data-element*="button"]):not([style*="background-color"]),
+      [data-user-bg-color] li:not([data-user-text-color]),
+      [data-user-bg-color] blockquote:not([data-user-text-color]),
+      [data-user-bg-color] span:not([data-user-text-color]),
+      [data-user-bg-color] div:not([data-user-text-color]),
+      [data-user-bg-color] h1:not([data-user-text-color]),
+      [data-user-bg-color] h2:not([data-user-text-color]),
+      [data-user-bg-color] h3:not([data-user-text-color]),
+      [data-user-bg-color] h4:not([data-user-text-color]),
+      [data-user-bg-color] h5:not([data-user-text-color]),
+      [data-user-bg-color] h6:not([data-user-text-color]),
+      [data-user-bg-color] th:not([data-user-text-color]),
+      [data-user-bg-color] td:not([data-user-text-color]) {
+        color: unset !important;
+      }
+    }
+
+    /* In-app preview toggle overrides (Light/Dark) */
+    [data-preview-theme="dark"] {
+      background-color: #0b1220 !important;
+    }
+    [data-preview-theme="dark"] table:not([data-user-bg-color]), [data-preview-theme="dark"] td:not([data-user-bg-color]), [data-preview-theme="dark"] tr:not([data-user-bg-color]) {
+      background-color: #0b1220 !important;
+    }
+    [data-preview-theme="dark"] p:not([data-user-text-color]):not([data-user-bg-color]), [data-preview-theme="dark"] li:not([data-user-text-color]):not([data-user-bg-color]), [data-preview-theme="dark"] blockquote:not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] span:not([data-user-text-color]):not([data-user-bg-color]), [data-preview-theme="dark"] div:not([data-user-text-color]):not([data-user-bg-color]), [data-preview-theme="dark"] h1:not([data-user-text-color]):not([data-user-bg-color]), [data-preview-theme="dark"] h2:not([data-user-text-color]):not([data-user-bg-color]), [data-preview-theme="dark"] h3:not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] h4:not([data-user-text-color]):not([data-user-bg-color]), [data-preview-theme="dark"] h5:not([data-user-text-color]):not([data-user-bg-color]), [data-preview-theme="dark"] h6:not([data-user-text-color]):not([data-user-bg-color]), [data-preview-theme="dark"] th:not([data-user-text-color]):not([data-user-bg-color]), [data-preview-theme="dark"] td:not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] a:not([data-user-text-color]):not([data-user-bg-color]):not([data-element*="cta"]):not([data-element*="button"]) {
+      color: #ffffff !important;
+    }
+    /* Footer text should always be white in manual dark preview (unless user set color on that node) */
+    [data-preview-theme="dark"] [data-element^="footer-"]:not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] [data-element^="footer-"] *:not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] td[data-element*="footer"]:not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] td[data-element*="footer"] *:not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] a[data-element^="footer-"]:not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] p[data-element^="footer-"]:not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] span[data-element^="footer-"]:not([data-user-text-color]):not([data-user-bg-color]) {
+      color: #ffffff !important;
+    }
+    [data-preview-theme="dark"] td[data-element*="button"] a:not([style*="color"]):not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] td[data-element*="cta"] a:not([style*="color"]):not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] a[data-element*="button"]:not([style*="color"]):not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] a[data-element*="cta"]:not([style*="color"]):not([data-user-text-color]):not([data-user-bg-color]) {
+      color: #ffffff !important;
+    }
+    [data-preview-theme="dark"] td[style*="background-color"][style*="border-radius"] a:not([style*="color"]):not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] a[style*="background-color"][style*="display: inline-block"]:not([style*="color"]):not([data-user-text-color]):not([data-user-bg-color]) {
+      color: #ffffff !important;
+    }
+
+    /* Flip inline white backgrounds to dark for manual preview toggle */
+    [data-preview-theme="dark"] *[style*="background-color: #ffffff"]:not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] *[style*="background-color:#ffffff"]:not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] *[style*="background-color: #fff"]:not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] *[style*="background-color:#fff"]:not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] *[style*="background-color:white"]:not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] *[style*="background-color: rgb(255, 255, 255)"]:not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] *[style*="background-color:rgb(255,255,255)"]:not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] *[style*="background-color: rgba(255, 255, 255"]:not([data-user-text-color]):not([data-user-bg-color]),
+    [data-preview-theme="dark"] *[style*="background-color:rgba(255,255,255"]:not([data-user-text-color]):not([data-user-bg-color]) {
+      background-color: #0b1220 !important;
+      color: #ffffff !important;
+    }
+
+    /* Text-element background fallback for manual dark preview toggle */
+    [data-preview-theme="dark"] p[style*="background-color: #ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] p[style*="background-color:#ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] p[style*="background-color: #fff"]:not([data-user-bg-color]), [data-preview-theme="dark"] p[style*="background-color:#fff"]:not([data-user-bg-color]),
+    [data-preview-theme="dark"] span[style*="background-color: #ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] span[style*="background-color:#ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] span[style*="background-color: #fff"]:not([data-user-bg-color]), [data-preview-theme="dark"] span[style*="background-color:#fff"]:not([data-user-bg-color]),
+    [data-preview-theme="dark"] div[style*="background-color: #ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] div[style*="background-color:#ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] div[style*="background-color: #fff"]:not([data-user-bg-color]), [data-preview-theme="dark"] div[style*="background-color:#fff"]:not([data-user-bg-color]),
+    [data-preview-theme="dark"] li[style*="background-color: #ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] li[style*="background-color:#ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] li[style*="background-color: #fff"]:not([data-user-bg-color]), [data-preview-theme="dark"] li[style*="background-color:#fff"]:not([data-user-bg-color]),
+    [data-preview-theme="dark"] blockquote[style*="background-color: #ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] blockquote[style*="background-color:#ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] blockquote[style*="background-color: #fff"]:not([data-user-bg-color]), [data-preview-theme="dark"] blockquote[style*="background-color:#fff"]:not([data-user-bg-color]),
+    [data-preview-theme="dark"] h1[style*="background-color: #ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h1[style*="background-color:#ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h1[style*="background-color: #fff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h1[style*="background-color:#fff"]:not([data-user-bg-color]),
+    [data-preview-theme="dark"] h2[style*="background-color: #ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h2[style*="background-color:#ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h2[style*="background-color: #fff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h2[style*="background-color:#fff"]:not([data-user-bg-color]),
+    [data-preview-theme="dark"] h3[style*="background-color: #ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h3[style*="background-color:#ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h3[style*="background-color: #fff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h3[style*="background-color:#fff"]:not([data-user-bg-color]),
+    [data-preview-theme="dark"] h4[style*="background-color: #ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h4[style*="background-color:#ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h4[style*="background-color: #fff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h4[style*="background-color:#fff"]:not([data-user-bg-color]),
+    [data-preview-theme="dark"] h5[style*="background-color: #ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h5[style*="background-color:#ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h5[style*="background-color: #fff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h5[style*="background-color:#fff"]:not([data-user-bg-color]),
+    [data-preview-theme="dark"] h6[style*="background-color: #ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h6[style*="background-color:#ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h6[style*="background-color: #fff"]:not([data-user-bg-color]), [data-preview-theme="dark"] h6[style*="background-color:#fff"]:not([data-user-bg-color]),
+    [data-preview-theme="dark"] a[style*="background-color: #ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] a[style*="background-color:#ffffff"]:not([data-user-bg-color]), [data-preview-theme="dark"] a[style*="background-color: #fff"]:not([data-user-bg-color]), [data-preview-theme="dark"] a[style*="background-color:#fff"]:not([data-user-bg-color]) {
+      background-color: #0b1220 !important;
+    }
+
+    [data-preview-theme="light"] {
+      background-color: #ffffff !important;
+    }
+    [data-preview-theme="light"] body, [data-preview-theme="light"] table:not([data-user-bg-color]), [data-preview-theme="light"] td:not([data-user-bg-color]), [data-preview-theme="light"] tr:not([data-user-bg-color]) {
+      background-color: #ffffff !important;
+    }
+    [data-preview-theme="light"] p:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] a:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] li:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] blockquote:not([style*="color"]):not([data-user-bg-color]),
+    [data-preview-theme="light"] span:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] div:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] h1:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] h2:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] h3:not([style*="color"]):not([data-user-bg-color]),
+    [data-preview-theme="light"] h4:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] h5:not([style*="color"]):not([data-user-bg-color]), [data-preview-theme="light"] h6:not([style*="color"]):not([data-user-bg-color]) {
+      color: #111827 !important;
+    }
+    [data-preview-theme="light"] a:not([style*="color"]):not([data-user-bg-color]) { color: #2563eb !important; }
+    [data-preview-theme="light"] td[data-element*="button"] a:not([style*="color"]):not([data-user-bg-color]),
+    [data-preview-theme="light"] td[data-element*="cta"] a:not([style*="color"]):not([data-user-bg-color]),
+    [data-preview-theme="light"] a[data-element*="button"]:not([style*="color"]):not([data-user-bg-color]),
+    [data-preview-theme="light"] a[data-element*="cta"]:not([style*="color"]):not([data-user-bg-color]) {
+      color: #ffffff !important;
+    }
+    [data-preview-theme="light"] td[style*="background-color"][style*="border-radius"] a:not([style*="color"]):not([data-user-bg-color]),
+    [data-preview-theme="light"] a[style*="background-color"][style*="display: inline-block"]:not([style*="color"]):not([data-user-bg-color]) {
+      color: #ffffff !important;
+    }
+
+    /* Descendants inside custom component backgrounds: same as prefers-color-scheme — ancestors
+       carry data-user-bg-color while p/a do not, so earlier rules would still force theme colors. */
+    [data-preview-theme="dark"] [data-user-bg-color] p:not([data-user-text-color]),
+    [data-preview-theme="dark"] [data-user-bg-color] a:not([data-user-text-color]):not([data-element*="cta"]):not([data-element*="button"]):not([style*="background-color"]),
+    [data-preview-theme="dark"] [data-user-bg-color] li:not([data-user-text-color]),
+    [data-preview-theme="dark"] [data-user-bg-color] blockquote:not([data-user-text-color]),
+    [data-preview-theme="dark"] [data-user-bg-color] span:not([data-user-text-color]),
+    [data-preview-theme="dark"] [data-user-bg-color] div:not([data-user-text-color]),
+    [data-preview-theme="dark"] [data-user-bg-color] h1:not([data-user-text-color]),
+    [data-preview-theme="dark"] [data-user-bg-color] h2:not([data-user-text-color]),
+    [data-preview-theme="dark"] [data-user-bg-color] h3:not([data-user-text-color]),
+    [data-preview-theme="dark"] [data-user-bg-color] h4:not([data-user-text-color]),
+    [data-preview-theme="dark"] [data-user-bg-color] h5:not([data-user-text-color]),
+    [data-preview-theme="dark"] [data-user-bg-color] h6:not([data-user-text-color]),
+    [data-preview-theme="dark"] [data-user-bg-color] th:not([data-user-text-color]),
+    [data-preview-theme="dark"] [data-user-bg-color] td:not([data-user-text-color]) {
+      color: unset !important;
+    }
+    [data-preview-theme="light"] [data-user-bg-color] p:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] a:not([data-user-text-color]):not([data-element*="cta"]):not([data-element*="button"]):not([style*="background-color"]),
+    [data-preview-theme="light"] [data-user-bg-color] li:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] blockquote:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] span:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] div:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] h1:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] h2:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] h3:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] h4:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] h5:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] h6:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] th:not([data-user-text-color]),
+    [data-preview-theme="light"] [data-user-bg-color] td:not([data-user-text-color]) {
+      color: unset !important;
+    }

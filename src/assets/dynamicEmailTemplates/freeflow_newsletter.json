@@ -1,0 +1,1269 @@
+{
+  "meta": {
+    "templateId": "freeflow_newsletter",
+    "templateName": "Newsletter Editorial",
+    "category": "free_flow",
+    "version": "1.0.0",
+    "createdAt": "2025-11-03T03:22:37.520Z",
+    "updatedAt": "2026-03-23T18:30:09.465900Z",
+    "description": "Regular newsletter with editorial content"
+  },
+  "html": "<!--Modern Ecommerce Newsletter - Business & Growth Focused--> \n\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n  <meta name=\"x-apple-disable-message-reformatting\" />\n  <title>Business Weekly - Growth Insights & Market Trends</title>\n</head>\n<body style=\"margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: #f8fafc;\">\n  <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"margin: 0; padding: 0; width: 100%; background-color: #f8fafc;\" role=\"presentation\">\n    <tr>\n      <td align=\"center\" style=\"padding: 20px 0;\">\n        \n        <!-- Main Container -->\n        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\" style=\"max-width: 600px; width: 100%; background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);\" role=\"presentation\">\n          \n          <!-- Component start Header -->\n          <tr>\n            <td align=\"center\" style=\"padding: 15px 30px 10px; background-color: #ffffff; border-radius: 12px 12px 0 0;\">\n              <!--[if mso | IE]><br /><![endif]-->\n              <img src=\"https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=200&h=80&fit=crop&q=80\" alt=\"Business Weekly Logo\" width=\"180\" height=\"60\" style=\"display: block; width: 180px; height: 60px; margin: 0 auto 10px; border: 0;\" />\n              <!--[if mso | IE]><br /><![endif]-->\n              <p data-element=\"header-tagline\" style=\"margin: 0; color: #6b7280; font-size: 16px; line-height: 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Growth insights • Market trends • Success strategies</p>\n            </td>\n          </tr>\n          <!-- Component end Header -->\n          <!-- Component start Featured Article -->\n          <!-- Featured Article -->\n          <tr>\n            <td style=\"padding: 0px 30px; background-color: #ffffff;\">\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\"><tr><td style=\"background-color: #ffffff; border-radius: 12px; padding: 30px; margin-bottom: 30px;\">\n                \n                <!--[if mso]>\n                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\"><tr><td style=\"position: relative; margin-bottom: 0px;\">\n                <![endif]-->\n                <!--[if !mso]> -->\n                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\"><tr><td style=\"position: relative; margin-bottom: 35px;\">\n                <!--<![endif]-->\n                  <!--[if mso]>\n                  <v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" style=\"height:300px;v-text-anchor:middle;width:540px;\" arcsize=\"1%\" stroke=\"f\" fillcolor=\"#ffffff\">\n                    <w:anchorlock/>\n                    <v:imagedata src=\"https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&q=80\" />\n                  </v:roundrect>\n                  <![endif]-->\n                  <!--[if !mso]> -->\n                  <img data-element=\"logo\"  src=\"https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&q=80\" alt=\"Digital Transformation\" width=\"540\" style=\"display: block; width: 100%; max-width: 540px; height: auto; border-radius: 8px; border: 0;\" />\n                  <!--<![endif]-->\n                  \n                <!--[if mso]>\n                </td></tr></table>\n                <![endif]-->\n                <!--[if !mso]> -->\n                </td></tr></table>\n                <!--<![endif]-->\n                \n                <!-- Spacing after image -->\n                <!--[if mso]>\n                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                  <tr>\n                    <td style=\"height: 30px; line-height: 30px; font-size: 1px;\">&nbsp;</td>\n                  </tr>\n                </table>\n                <![endif]-->\n                <!--[if !mso]> -->\n                <div style=\"height: 30px; line-height: 30px; font-size: 1px;\">&nbsp;</div>\n                <!--<![endif]-->\n                \n                <h2 data-element=\"featured-title\" style=\"margin: 0 0 15px 0; color: #1f2937; font-size: 24px; font-weight: 700; line-height: 30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">🚀 The Future of Digital Transformation</h2>\n                <p data-element=\"featured-body\" style=\"margin: 0 0 25px 0; color: #6b7280; line-height: 26px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">From artificial intelligence to cloud computing, the tools available to modern businesses are more powerful than ever. But success requires more than just adopting new technology—it requires a strategic approach to change management and cultural transformation.</p>\n                \n                <!--[if mso]>\n                <v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" style=\"height:auto;v-text-anchor:middle;width:540px;\" arcsize=\"15%\" stroke=\"f\" fillcolor=\"#e0e7ff\">\n                  <w:anchorlock/>\n                  <div style=\"padding: 15px; margin: 20px 0 30px 0;\">\n                    <p data-element=\"featured-insight\" style=\"margin: 0; color: #1e40af; font-size: 14px; line-height: 20px; font-weight: 600; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">💡 Key Insight: 87% of digitally transformed companies report increased revenue</p>\n                  </div>\n                </v:roundrect>\n                <![endif]-->\n                <!--[if !mso]> -->\n                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\"><tr><td data-element=\"featured-insight-container\" style=\"background-color: #e0e7ff; border-radius: 8px; padding: 15px; margin: 20px 0 30px 0;\">\n                  <p data-element=\"featured-insight\" style=\"margin: 0; color: #1e40af; font-size: 14px; line-height: 20px; font-weight: 600; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">💡 Key Insight: 87% of digitally transformed companies report increased revenue</p>\n                </td></tr></table>\n                <!--<![endif]-->\n                <br />\n                <!--[if mso | IE]><br /><![endif]-->\n                <!--[if mso]>\n                <v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" href=\"#\" style=\"height:44px;v-text-anchor:middle;width:180px;\" arcsize=\"15%\" stroke=\"f\" fillcolor=\"#1e40af\">\n                  <w:anchorlock/>\n                  <center style=\"color:#ffffff;font-family:Segoe UI, Roboto, sans-serif;font-size:14px;font-weight:600;\">\n                    Read Full Article →\n                  </center>\n                </v:roundrect>\n                <![endif]-->\n                <!--[if !mso]> -->\n                <a data-element=\"featured-cta\" href=\"#\" style=\"display: inline-block; padding: 12px 24px; background-color: #1e40af; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 14px; line-height: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Read Full Article →</a>\n                <!--<![endif]-->\n                <!--[if mso | IE]><br /><![endif]-->\n              </td></tr></table>\n            </td>\n          </tr>\n          <!-- Component end Featured Article -->\n          <!-- Component start Divider -->\n          <tr>\n            <td style=\"padding: 0 30px;\">\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\"><tr><td style=\"height: 1px; background-color: #e5e5e5;\"></td></tr></table>\n            </td>\n          </tr>\n          <!-- Component end Divider -->\n          <!-- Component start Trending Topics -->\n          <!-- Trending Topics -->\n          <tr>\n            <td style=\"padding: 40px 30px; background-color: #ffffff;\">\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\"><tr><td style=\"text-align: center; margin-bottom: 30px;\">\n                <h3 data-element=\"trending-heading\" style=\"margin: 0 0 10px 0; color: #1f2937; font-size: 20px; font-weight: 600; line-height: 26px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">📈 Trending Topics</h3>\n                <p data-element=\"trending-subhead\" style=\"margin: 0; color: #6b7280; font-size: 16px; line-height: 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">What's shaping the business world today</p>\n              </td></tr></table>\n              \n              <!--[if mso]>\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td style=\"height: 25px; line-height: 25px; font-size: 1px;\">&nbsp;</td>\n                </tr>\n              </table>\n              <![endif]-->\n              <!--[if !mso]> -->\n              <div style=\"height: 25px; line-height: 25px; font-size: 1px;\">&nbsp;</div>\n              <!--<![endif]-->\n              \n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <!-- First Row -->\n                <tr>\n                  <!-- Tile 1 -->\n                  <td width=\"48%\" valign=\"top\" style=\"padding-right: 7px; padding-bottom: 15px;\">\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\"><tr><td style=\"background-color: #ffffff; border-radius: 12px; padding: 20px; height: 100%; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\">\n                      <!--[if mso]>\n                      <v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" style=\"height:150px;v-text-anchor:middle;width:250px;\" arcsize=\"3%\" stroke=\"f\" fillcolor=\"#ffffff\">\n                        <w:anchorlock/>\n                        <v:imagedata src=\"https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=250&h=150&fit=crop&q=80\" />\n                      </v:roundrect>\n                      <![endif]-->\n                      <!--[if !mso]> -->\n                      <img src=\"https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=250&h=150&fit=crop&q=80\" alt=\"Sustainability\" width=\"250\" height=\"150\" style=\"display: block; width: 100%; height: 150px; object-fit: cover; border-radius: 8px; border: 0; margin-bottom: 12px;\" />\n                      <!--<![endif]-->\n                      <h4 data-element=\"topic-1-title\" style=\"margin: 0 0 6px 0; color: #1f2937; font-size: 14px; font-weight: 600; line-height: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">🌱 Sustainability</h4>\n                      <p data-element=\"topic-1-description\" style=\"margin: 0 0 10px 0; color: #6b7280; line-height: 18px; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Environmental responsibility in business operations.</p>\n                      \n                      <!--[if !mso]> -->\n                      <a data-element=\"topic-1-cta\" href=\"#\" style=\"text-decoration: none; color: rgb(37, 99, 235); font-size: 14px; font-weight: 600; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif; border-radius: 12px; pointer-events: auto !important; cursor: text !important;\">Read More →</a>\n                      <!--<![endif]-->\n                    </td></tr></table>\n                  </td>\n                  \n                  <!-- Tile 2 -->\n                  <td width=\"48%\" valign=\"top\" style=\"padding-left: 7px; padding-bottom: 15px;\">\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\"><tr><td style=\"background-color: #ffffff; border-radius: 12px; padding: 20px; height: 100%; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\">\n                      <!--[if mso]>\n                      <v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" style=\"height:150px;v-text-anchor:middle;width:250px;\" arcsize=\"3%\" stroke=\"f\" fillcolor=\"#ffffff\">\n                        <w:anchorlock/>\n                        <v:imagedata src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=250&h=150&fit=crop&q=80\" />\n                      </v:roundrect>\n                      <![endif]-->\n                      <!--[if !mso]> -->\n                      <img src=\"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=250&h=150&fit=crop&q=80\" alt=\"Remote Work\" width=\"250\" height=\"150\" style=\"display: block; width: 100%; height: 150px; object-fit: cover; border-radius: 8px; border: 0; margin-bottom: 12px;\" />\n                      <!--<![endif]-->\n                      <h4 data-element=\"topic-2-title\" style=\"margin: 0 0 6px 0; color: #1f2937; font-size: 14px; font-weight: 600; line-height: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">👥 Remote Teams</h4>\n                      <p data-element=\"topic-2-description\" style=\"margin: 0 0 10px 0; color: #6b7280; line-height: 18px; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Best practices for distributed team management.</p>\n                      \n                      <!--[if !mso]> -->\n                      <a data-element=\"topic-2-cta\" href=\"#\" style=\"text-decoration: none; color: rgb(37, 99, 235); font-size: 14px; font-weight: 600; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif; border-radius: 12px; pointer-events: auto !important; cursor: text !important;\">Read More →</a>\n                      <!--<![endif]-->\n                    </td></tr></table>\n                  </td>\n                </tr>\n                \n                <!-- Second Row -->\n                <tr>\n                  <!-- Tile 3 -->\n                  <td width=\"48%\" valign=\"top\" style=\"padding-right: 7px;\">\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\"><tr><td style=\"background-color: #ffffff; border-radius: 12px; padding: 20px; height: 100%; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\">\n                      <!--[if mso]>\n                      <v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" style=\"height:150px;v-text-anchor:middle;width:250px;\" arcsize=\"3%\" stroke=\"f\" fillcolor=\"#ffffff\">\n                        <w:anchorlock/>\n                        <v:imagedata src=\"https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=250&h=150&fit=crop&q=80\" />\n                      </v:roundrect>\n                      <![endif]-->\n                      <!--[if !mso]> -->\n                      <img src=\"https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=250&h=150&fit=crop&q=80\" alt=\"AI Technology\" width=\"250\" height=\"150\" style=\"display: block; width: 100%; height: 150px; object-fit: cover; border-radius: 8px; border: 0; margin-bottom: 12px;\" />\n                      <!--<![endif]-->\n                      <h4 data-element=\"topic-3-title\" style=\"margin: 0 0 6px 0; color: #1f2937; font-size: 14px; font-weight: 600; line-height: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">🤖 AI Innovation</h4>\n                      <p data-element=\"topic-3-description\" style=\"margin: 0 0 10px 0; color: #6b7280; line-height: 18px; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Artificial intelligence transforming business processes.</p>\n                      \n                      <!--[if !mso]> -->\n                      <a data-element=\"topic-3-cta\" href=\"#\" style=\"text-decoration: none; color: rgb(37, 99, 235); font-size: 14px; font-weight: 600; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif; border-radius: 12px; pointer-events: auto !important; cursor: text !important;\">Read More →</a>\n                      <!--<![endif]-->\n                    </td></tr></table>\n                  </td>\n                  \n                  <!-- Tile 4 -->\n                  <td width=\"48%\" valign=\"top\" style=\"padding-left: 7px;\">\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\"><tr><td style=\"background-color: #ffffff; border-radius: 12px; padding: 20px; height: 100%; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\">\n                      <!--[if mso]>\n                      <v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" style=\"height:150px;v-text-anchor:middle;width:250px;\" arcsize=\"3%\" stroke=\"f\" fillcolor=\"#ffffff\">\n                        <w:anchorlock/>\n                        <v:imagedata src=\"https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=250&h=150&fit=crop&q=80\" />\n                      </v:roundrect>\n                      <![endif]-->\n                      <!--[if !mso]> -->\n                      <img src=\"https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=250&h=150&fit=crop&q=80\" alt=\"Financial Growth\" width=\"250\" height=\"150\" style=\"display: block; width: 100%; height: 150px; object-fit: cover; border-radius: 8px; border: 0; margin-bottom: 12px;\" />\n                      <!--<![endif]-->\n                      <h4 data-element=\"topic-4-title\" style=\"margin: 0 0 6px 0; color: #1f2937; font-size: 14px; font-weight: 600; line-height: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">💰 Growth Strategy</h4>\n                      <p data-element=\"topic-4-description\" style=\"margin: 0 0 10px 0; color: #6b7280; line-height: 18px; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Strategic approaches to sustainable business growth.</p>\n                      \n                      <!--[if !mso]> -->\n                      <a data-element=\"topic-4-cta\" href=\"#\" style=\"text-decoration: none; color: rgb(37, 99, 235); font-size: 14px; font-weight: 600; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif; border-radius: 12px; pointer-events: auto !important; cursor: text !important;\">Read More →</a>\n                      <!--<![endif]-->\n                    </td></tr></table>\n                  </td>\n                </tr>\n              </table>\n            </td>\n          </tr>\n          \n              <!-- Spacing before Quick Reads -->\n    \n              <!--[if !mso]> -->\n              <div style=\"height: 15px; line-height: 15px; font-size: 1px;\">&nbsp;</div>\n              <!--<![endif]-->\n          \n          <!-- Divider -->\n          <tr>\n            <td style=\"padding: 0 30px;\">\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\"><tr><td style=\"height: 1px; background-color: #e5e5e5;\"></td></tr></table>\n            </td>\n          </tr>\n          <!-- Component end Trending Topics -->\n          \n          <!-- Component start Quick Reads -->\n          <tr>\n            <td style=\"padding: 40px 30px; background-color: #ffffff;\">\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\"><tr><td style=\"text-align: center; margin-bottom: 30px;\">\n                <h3 data-element=\"quick-heading\" style=\"margin: 0 0 10px 0; color: #1f2937; font-size: 20px; font-weight: 600; line-height: 26px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">⚡ Quick Reads</h3>\n                <p data-element=\"quick-subhead\" style=\"margin: 0; color: #6b7280; font-size: 16px; line-height: 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Bite-sized insights for busy professionals</p>\n              </td></tr></table>\n              \n              <!--[if mso]>\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td style=\"height: 25px; line-height: 25px; font-size: 1px;\">&nbsp;</td>\n                </tr>\n              </table>\n              <![endif]-->\n              <!--[if !mso]> -->\n              <div style=\"height: 25px; line-height: 25px; font-size: 1px;\">&nbsp;</div>\n              <!--<![endif]-->\n              \n              <!-- Quick Reads List -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <!-- Article 1 -->\n                <tr>\n                  <td style=\"padding: 0 0 20px 0;\">\n                    <h4 data-element=\"quick-1-title\" style=\"margin: 0 0 8px 0; color: #1f2937; font-size: 16px; font-weight: 600; line-height: 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">5 Ways to Boost Productivity</h4>\n                    <p data-element=\"quick-1-summary\" style=\"margin: 0 0 8px 0; color: #6b7280; line-height: 22px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Simple strategies that can transform your daily workflow and maximize your output.</p>\n                    <a data-element=\"read-more-1\" href=\"#\" style=\"color: #1e40af; text-decoration: underline; font-size: 14px; font-weight: 600; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Read More →</a>\n                  </td>\n                </tr>\n                \n                <!-- Article 2 -->\n                <tr>\n                  <td style=\"padding: 0 0 20px 0;\">\n                    <h4 data-element=\"quick-2-title\" style=\"margin: 0 0 8px 0; color: #1f2937; font-size: 16px; font-weight: 600; line-height: 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">The Art of Negotiation</h4>\n                    <p data-element=\"quick-2-summary\" style=\"margin: 0 0 8px 0; color: #6b7280; line-height: 22px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Master the skills that separate good leaders from great ones in any negotiation.</p>\n                    <a data-element=\"read-more-2\" href=\"#\" style=\"color: #1e40af; text-decoration: underline; font-size: 14px; font-weight: 600; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Read More →</a>\n                  </td>\n                </tr>\n                \n                <!-- Article 3 -->\n                <tr>\n                  <td style=\"padding: 0;\">\n                    <h4 data-element=\"quick-3-title\" style=\"margin: 0 0 8px 0; color: #1f2937; font-size: 16px; font-weight: 600; line-height: 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Building Company Culture</h4>\n                    <p data-element=\"quick-3-summary\" style=\"margin: 0 0 8px 0; color: #6b7280; line-height: 22px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Creating an environment where employees thrive, grow, and contribute to success.</p>\n                    <a data-element=\"read-more-3\" href=\"#\" style=\"color: #1e40af; text-decoration: underline; font-size: 14px; font-weight: 600; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Read More →</a>\n                  </td>\n                </tr>\n              </table>\n            </td>\n          </tr>\n          <!-- Component end Quick Reads -->\n                    <!-- Component start Footer -->\n          <!-- Footer Option 2: Standard Footer with Company Info, Links, and Social Media -->\n          <tr>\n            <td align=\"center\" style=\"padding: 40px 20px 30px 20px; background-color: #ffffff; border-radius: 0 0 8px 8px;\">\n              \n              <!-- Divider -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td style=\"padding: 0 0 30px 0; border-top: 1px solid #e2e8f0;\"></td>\n                </tr>\n              </table>\n              \n              <!-- Company Name / Brand -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 15px 0;\">\n                    <p data-element=\"footer-company-name\" style=\"margin: 0; color: #1e293b; font-size: 16px; font-weight: 600; line-height: 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Your Company Name</p>\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Company Address (CAN-SPAM Compliance) -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 20px 0;\">\n                    <p data-element=\"footer-address\" style=\"margin: 0; color: #64748b; font-size: 12px; line-height: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">123 Main Street<br />City, State 12345<br />United States</p>\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Trust Indicators / Tagline -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 25px 0;\">\n                    <p data-element=\"footer-tagline\" style=\"margin: 0; color: #64748b; font-size: 12px; line-height: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Secure checkout • Fast delivery • Easy returns</p>\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Social Media Links -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 25px 0;\">\n                    <!--[if mso]>\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\">\n                      <tr>\n                        <td style=\"padding: 0 8px;\">\n                          <a href=\"#\" style=\"color: #64748b; text-decoration: none; font-size: 12px;\">Facebook</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a href=\"#\" style=\"color: #64748b; text-decoration: none; font-size: 12px;\">Twitter</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a href=\"#\" style=\"color: #64748b; text-decoration: none; font-size: 12px;\">Instagram</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a href=\"#\" style=\"color: #64748b; text-decoration: none; font-size: 12px;\">LinkedIn</a>\n                        </td>\n                      </tr>\n                    </table>\n                    <![endif]-->\n                    <!--[if !mso]> -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"margin: 0 auto;\">\n                      <tr>\n                        <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-social-facebook\" href=\"#\" style=\"display: inline-block; color: #64748b; text-decoration: none; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Facebook</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-social-twitter\" href=\"#\" style=\"display: inline-block; color: #64748b; text-decoration: none; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Twitter</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-social-instagram\" href=\"#\" style=\"display: inline-block; color: #64748b; text-decoration: none; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Instagram</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-social-linkedin\" href=\"#\" style=\"display: inline-block; color: #64748b; text-decoration: none; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">LinkedIn</a>\n                        </td>\n                      </tr>\n                    </table>\n                    <!--<![endif]-->\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Legal & Support Links -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 20px 0;\">\n                    <!--[if mso]>\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\">\n                      <tr>\n                        <td style=\"padding: 0 8px; border-right: 1px solid #e2e8f0;\">\n                          <a href=\"#\" style=\"color: #2563eb; text-decoration: underline; font-size: 11px;\">Privacy Policy</a>\n                        </td>\n                        <td style=\"padding: 0 8px; border-right: 1px solid #e2e8f0;\">\n                          <a href=\"#\" style=\"color: #2563eb; text-decoration: underline; font-size: 11px;\">Terms of Service</a>\n                        </td>\n                        <td style=\"padding: 0 8px; border-right: 1px solid #e2e8f0;\">\n                          <a href=\"#\" style=\"color: #2563eb; text-decoration: underline; font-size: 11px;\">Help Center</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a href=\"#\" style=\"color: #2563eb; text-decoration: underline; font-size: 11px;\">Unsubscribe</a>\n                        </td>\n                      </tr>\n                    </table>\n                    <![endif]-->\n                    <!--[if !mso]> -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"margin: 0 auto;\">\n                      <tr>\n                        <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-link-privacy\" href=\"#\" style=\"display: inline-block; color: #2563eb; text-decoration: underline; font-size: 11px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Privacy Policy</a>\n                        </td>\n                        <td id=\"link_2_separator\" style=\"padding: 0 8px; color: #e2e8f0;\">|</td> <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-link-terms\" href=\"#\" style=\"display: inline-block; color: #2563eb; text-decoration: underline; font-size: 11px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Terms of Service</a>\n                        </td>\n                        <td id=\"link_3_separator\" style=\"padding: 0 8px; color: #e2e8f0;\">|</td> <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-link-help\" href=\"#\" style=\"display: inline-block; color: #2563eb; text-decoration: underline; font-size: 11px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Help Center</a>\n                        </td>\n                        <td id=\"link_4_separator\" style=\"padding: 0 8px; color: #e2e8f0;\">|</td> <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-link-unsubscribe\" href=\"#\" style=\"display: inline-block; color: #2563eb; text-decoration: underline; font-size: 11px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Unsubscribe</a>\n                        </td>\n                      </tr>\n                    </table>\n                    <!--<![endif]-->\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Social Icons (customizable – replace emoji with your icon) -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 20px 0;\">\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"margin: 0 auto;\">\n                      <tr>\n                        <td style=\"padding: 0 10px;\"><a data-element=\"footer-icon-1\" href=\"#\" style=\"display: inline-block; font-size: 24px; line-height: 1; text-decoration: none;\">📘</a></td>\n                        <td style=\"padding: 0 10px;\"><a data-element=\"footer-icon-2\" href=\"#\" style=\"display: inline-block; font-size: 24px; line-height: 1; text-decoration: none;\">🐦</a></td>\n                        <td style=\"padding: 0 10px;\"><a data-element=\"footer-icon-3\" href=\"#\" style=\"display: inline-block; font-size: 24px; line-height: 1; text-decoration: none;\">📷</a></td>\n                        <td style=\"padding: 0 10px;\"><a data-element=\"footer-icon-4\" href=\"#\" style=\"display: inline-block; font-size: 24px; line-height: 1; text-decoration: none;\">💼</a></td>\n                      </tr>\n                    </table>\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Contact Information -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 15px 0;\">\n                    <p data-element=\"footer-contact\" style=\"margin: 0; color: #64748b; font-size: 11px; line-height: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Questions? Contact us at <a href=\"mailto:support@yourcompany.com\" style=\"color: #2563eb; text-decoration: underline;\">support@yourcompany.com</a></p>\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Copyright -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0;\">\n                    <p data-element=\"footer-copyright\" style=\"margin: 0; color: #94a3b8; font-size: 11px; line-height: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">©YYYY Your Company Name. All rights reserved.</p>\n                  </td>\n                </tr>\n              </table>\n              \n            </td>\n          </tr>\n          <!-- Component end Footer -->\n        </table>\n        <!-- End Main Container -->\n        \n      </td>\n    </tr>\n  </table>\n  <!-- End Wrapper -->\n</body>\n</html>",
+  "elements": [
+    {
+      "id": "img_1",
+      "type": "image",
+      "selector": "img[alt=\"Business Weekly Logo\"]",
+      "label": "Image: Business Weekly Logo",
+      "defaultValue": "https://www.fmt.se/wp-content/uploads/2023/02/logo-placeholder-image.png",
+      "value": "https://www.fmt.se/wp-content/uploads/2023/02/logo-placeholder-image.png",
+      "visible": true,
+      "properties": {
+        "alt": "Business Weekly Logo",
+        "width": 180,
+        "height": 60,
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "allowedTypes": [
+          "url"
+        ]
+      }
+    },
+    {
+      "id": "text_header_tagline",
+      "type": "text",
+      "selector": "p[data-element=\"header-tagline\"]",
+      "label": "Header Tagline",
+      "defaultValue": "Growth insights • Market trends • Success strategies",
+      "value": "Growth insights • Market trends • Success strategies",
+      "visible": true,
+      "properties": {
+        "textColor": "#6b7280",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "img_2",
+      "type": "image",
+      "selector": "img[alt=\"Digital Transformation\"]",
+      "label": "Image: Digital Transformation",
+      "defaultValue": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&q=80",
+      "value": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&q=80",
+      "visible": true,
+      "properties": {
+        "alt": "Digital Transformation",
+        "width": 540,
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "allowedTypes": [
+          "url"
+        ]
+      }
+    },
+    {
+      "id": "img_3",
+      "type": "image",
+      "selector": "img[alt=\"Sustainability\"]",
+      "label": "Image: Sustainability",
+      "defaultValue": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=250&h=150&fit=crop&q=80",
+      "value": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=250&h=150&fit=crop&q=80",
+      "visible": true,
+      "properties": {
+        "alt": "Sustainability",
+        "width": 250,
+        "height": 150,
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "allowedTypes": [
+          "url"
+        ]
+      }
+    },
+    {
+      "id": "img_4",
+      "type": "image",
+      "selector": "img[alt=\"Remote Work\"]",
+      "label": "Image: Remote Work",
+      "defaultValue": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=250&h=150&fit=crop&q=80",
+      "value": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=250&h=150&fit=crop&q=80",
+      "visible": true,
+      "properties": {
+        "alt": "Remote Work",
+        "width": 250,
+        "height": 150,
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "allowedTypes": [
+          "url"
+        ]
+      }
+    },
+    {
+      "id": "img_5",
+      "type": "image",
+      "selector": "img[alt=\"AI Technology\"]",
+      "label": "Image: AI Technology",
+      "defaultValue": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=250&h=150&fit=crop&q=80",
+      "value": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=250&h=150&fit=crop&q=80",
+      "visible": true,
+      "properties": {
+        "alt": "AI Technology",
+        "width": 250,
+        "height": 150,
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "allowedTypes": [
+          "url"
+        ]
+      }
+    },
+    {
+      "id": "img_6",
+      "type": "image",
+      "selector": "img[alt=\"Financial Growth\"]",
+      "label": "Image: Financial Growth",
+      "defaultValue": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=250&h=150&fit=crop&q=80",
+      "value": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=250&h=150&fit=crop&q=80",
+      "visible": true,
+      "properties": {
+        "alt": "Financial Growth",
+        "width": 250,
+        "height": 150,
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "allowedTypes": [
+          "url"
+        ]
+      }
+    },
+    {
+      "id": "heading_section_1",
+      "type": "heading",
+      "selector": "h2[data-element=\"featured-title\"]",
+      "label": "Section Heading ",
+      "defaultValue": "🚀 The Future of Digital Transformation",
+      "value": "🚀 The Future of Digital Transformation",
+      "visible": true,
+      "properties": {
+        "fontSize": "24px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "text_featured_body",
+      "type": "text",
+      "selector": "p[data-element=\"featured-body\"]",
+      "label": "Featured Body",
+      "defaultValue": "From artificial intelligence to cloud computing, the tools available to modern businesses are more powerful than ever. But success requires more than just adopting new technology—it requires a strategic approach to change management and cultural transformation.",
+      "value": "From artificial intelligence to cloud computing, the tools available to modern businesses are more powerful than ever. But success requires more than just adopting new technology—it requires a strategic approach to change management and cultural transformation.",
+      "visible": true,
+      "properties": {
+        "textColor": "#6b7280",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 800
+      }
+    },
+    {
+      "id": "text_featured_insight",
+      "type": "text",
+      "selector": "p[data-element=\"featured-insight\"]",
+      "label": "Featured Insight",
+      "defaultValue": "💡 Key Insight: 87% of digitally transformed companies report increased revenue",
+      "value": "💡 Key Insight: 87% of digitally transformed companies report increased revenue",
+      "visible": true,
+      "properties": {
+        "textColor": "#1e40af",
+        "fontSize": "14px",
+        "paddingTop": "20px",
+        "paddingRight": "20px",
+        "paddingBottom": "20px",
+        "paddingLeft": "20px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "section_featured_insight_container",
+      "type": "section",
+      "selector": "td[data-element=\"featured-insight-container\"]",
+      "label": "Featured Insight Container",
+      "defaultValue": "",
+      "value": "",
+      "visible": true,
+      "properties": {
+        "backgroundColor": "#e0e7ff",
+        "borderRadius": "8px",
+        "paddingTop": "15px",
+        "paddingRight": "15px",
+        "paddingBottom": "15px",
+        "paddingLeft": "15px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "button_1",
+      "type": "button",
+      "selector": "a[data-element=\"featured-cta\"]",
+      "label": "Button: Featured CTA",
+      "defaultValue": "Read Full Article →",
+      "value": "Read Full Article →",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "backgroundColor": "#1e40af",
+        "textColor": "#ffffff",
+        "fontSize": "16px",
+        "fontWeight": "600"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "heading_sub_1",
+      "type": "heading",
+      "selector": "h3[data-element=\"trending-heading\"]",
+      "label": "Sub Heading ",
+      "defaultValue": "📈 Trending Topics",
+      "value": "📈 Trending Topics",
+      "visible": true,
+      "properties": {
+        "fontSize": "18px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "text_trending_subhead",
+      "type": "text",
+      "selector": "p[data-element=\"trending-subhead\"]",
+      "label": "Trending Subhead",
+      "defaultValue": "What's shaping the business world today",
+      "value": "What's shaping the business world today",
+      "visible": true,
+      "properties": {
+        "textColor": "#6b7280",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "heading_topic_1",
+      "type": "heading",
+      "selector": "h4[data-element=\"topic-1-title\"]",
+      "label": "Trending Topic 1 Title",
+      "defaultValue": "🌱 Sustainability",
+      "value": "🌱 Sustainability",
+      "visible": true,
+      "properties": {
+        "fontSize": "14px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 120
+      }
+    },
+    {
+      "id": "text_topic_1_description",
+      "type": "text",
+      "selector": "p[data-element=\"topic-1-description\"]",
+      "label": "Trending Topic 1 Description",
+      "defaultValue": "Environmental responsibility in business operations.",
+      "value": "Environmental responsibility in business operations.",
+      "visible": true,
+      "properties": {
+        "textColor": "#6b7280",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "button_2",
+      "type": "link",
+      "selector": "a[data-element=\"topic-1-cta\"]",
+      "label": "Link: Topic 1 CTA",
+      "defaultValue": "Read More →",
+      "value": "Read More →",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "rgb(37, 99, 235)",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+        "borderRadius": "12px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "heading_topic_2",
+      "type": "heading",
+      "selector": "h4[data-element=\"topic-2-title\"]",
+      "label": "Trending Topic 2 Title",
+      "defaultValue": "👥 Remote Teams",
+      "value": "👥 Remote Teams",
+      "visible": true,
+      "properties": {
+        "fontSize": "14px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 120
+      }
+    },
+    {
+      "id": "text_topic_2_description",
+      "type": "text",
+      "selector": "p[data-element=\"topic-2-description\"]",
+      "label": "Trending Topic 2 Description",
+      "defaultValue": "Best practices for distributed team management.",
+      "value": "Best practices for distributed team management.",
+      "visible": true,
+      "properties": {
+        "textColor": "#6b7280",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "button_3",
+      "type": "link",
+      "selector": "a[data-element=\"topic-2-cta\"]",
+      "label": "Link: Topic 2 CTA",
+      "defaultValue": "Read More →",
+      "value": "Read More →",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "rgb(37, 99, 235)",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+        "borderRadius": "12px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "heading_topic_3",
+      "type": "heading",
+      "selector": "h4[data-element=\"topic-3-title\"]",
+      "label": "Trending Topic 3 Title",
+      "defaultValue": "🤖 AI Innovation",
+      "value": "🤖 AI Innovation",
+      "visible": true,
+      "properties": {
+        "fontSize": "14px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 120
+      }
+    },
+    {
+      "id": "text_topic_3_description",
+      "type": "text",
+      "selector": "p[data-element=\"topic-3-description\"]",
+      "label": "Trending Topic 3 Description",
+      "defaultValue": "Artificial intelligence transforming business processes.",
+      "value": "Artificial intelligence transforming business processes.",
+      "visible": true,
+      "properties": {
+        "textColor": "#6b7280",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "button_4",
+      "type": "link",
+      "selector": "a[data-element=\"topic-3-cta\"]",
+      "label": "Link: Topic 3 CTA",
+      "defaultValue": "Read More →",
+      "value": "Read More →",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "rgb(37, 99, 235)",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+        "borderRadius": "12px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "heading_topic_4",
+      "type": "heading",
+      "selector": "h4[data-element=\"topic-4-title\"]",
+      "label": "Trending Topic 4 Title",
+      "defaultValue": "💰 Growth Strategy",
+      "value": "💰 Growth Strategy",
+      "visible": true,
+      "properties": {
+        "fontSize": "14px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 120
+      }
+    },
+    {
+      "id": "text_topic_4_description",
+      "type": "text",
+      "selector": "p[data-element=\"topic-4-description\"]",
+      "label": "Trending Topic 4 Description",
+      "defaultValue": "Strategic approaches to sustainable business growth.",
+      "value": "Strategic approaches to sustainable business growth.",
+      "visible": true,
+      "properties": {
+        "textColor": "#6b7280",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "button_5",
+      "type": "link",
+      "selector": "a[data-element=\"topic-4-cta\"]",
+      "label": "Link: Topic 4 CTA",
+      "defaultValue": "Read More →",
+      "value": "Read More →",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "rgb(37, 99, 235)",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+        "borderRadius": "12px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "heading_sub_2",
+      "type": "heading",
+      "selector": "h3[data-element=\"quick-heading\"]",
+      "label": "Sub Heading 2",
+      "defaultValue": "⚡ Quick Reads",
+      "value": "⚡ Quick Reads",
+      "visible": true,
+      "properties": {
+        "fontSize": "18px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "text_quick_subhead",
+      "type": "text",
+      "selector": "p[data-element=\"quick-subhead\"]",
+      "label": "Quick Reads Subhead",
+      "defaultValue": "Bite-sized insights for busy professionals",
+      "value": "Bite-sized insights for busy professionals",
+      "visible": true,
+      "properties": {
+        "textColor": "#6b7280",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "heading_quick_1",
+      "type": "heading",
+      "selector": "h4[data-element=\"quick-1-title\"]",
+      "label": "Quick Read 1 Title",
+      "defaultValue": "5 Ways to Boost Productivity",
+      "value": "5 Ways to Boost Productivity",
+      "visible": true,
+      "properties": {
+        "fontSize": "16px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 150
+      }
+    },
+    {
+      "id": "text_quick_1_summary",
+      "type": "text",
+      "selector": "p[data-element=\"quick-1-summary\"]",
+      "label": "Quick Read 1 Summary",
+      "defaultValue": "Simple strategies that can transform your daily workflow and maximize your output.",
+      "value": "Simple strategies that can transform your daily workflow and maximize your output.",
+      "visible": true,
+      "properties": {
+        "textColor": "#6b7280",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 250
+      }
+    },
+    {
+      "id": "heading_quick_2",
+      "type": "heading",
+      "selector": "h4[data-element=\"quick-2-title\"]",
+      "label": "Quick Read 2 Title",
+      "defaultValue": "The Art of Negotiation",
+      "value": "The Art of Negotiation",
+      "visible": true,
+      "properties": {
+        "fontSize": "16px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 150
+      }
+    },
+    {
+      "id": "text_quick_2_summary",
+      "type": "text",
+      "selector": "p[data-element=\"quick-2-summary\"]",
+      "label": "Quick Read 2 Summary",
+      "defaultValue": "Master the skills that separate good leaders from great ones in any negotiation.",
+      "value": "Master the skills that separate good leaders from great ones in any negotiation.",
+      "visible": true,
+      "properties": {
+        "textColor": "#6b7280",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 250
+      }
+    },
+    {
+      "id": "heading_quick_3",
+      "type": "heading",
+      "selector": "h4[data-element=\"quick-3-title\"]",
+      "label": "Quick Read 3 Title",
+      "defaultValue": "Building Company Culture",
+      "value": "Building Company Culture",
+      "visible": true,
+      "properties": {
+        "fontSize": "16px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 150
+      }
+    },
+    {
+      "id": "text_quick_3_summary",
+      "type": "text",
+      "selector": "p[data-element=\"quick-3-summary\"]",
+      "label": "Quick Read 3 Summary",
+      "defaultValue": "Creating an environment where employees thrive, grow, and contribute to success.",
+      "value": "Creating an environment where employees thrive, grow, and contribute to success.",
+      "visible": true,
+      "properties": {
+        "textColor": "#6b7280",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 250
+      }
+    },
+    {
+      "id": "read_more_1",
+      "type": "link",
+      "selector": "a[data-element=\"read-more-1\"]",
+      "label": "Link: Read More 1",
+      "defaultValue": "Read More →",
+      "value": "Read More →",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#1e40af",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "read_more_2",
+      "type": "link",
+      "selector": "a[data-element=\"read-more-2\"]",
+      "label": "Link: Read More 2",
+      "defaultValue": "Read More →",
+      "value": "Read More →",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#1e40af",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "read_more_3",
+      "type": "link",
+      "selector": "a[data-element=\"read-more-3\"]",
+      "label": "Link: Read More 3",
+      "defaultValue": "Read More →",
+      "value": "Read More →",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#1e40af",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "heading_sub_3",
+      "type": "heading",
+      "selector": "h3[data-element=\"footer-heading\"]",
+      "label": "Sub Heading 3",
+      "defaultValue": "Business Weekly",
+      "value": "Business Weekly",
+      "visible": true,
+      "properties": {
+        "fontSize": "18px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "text_footer_tagline",
+      "type": "text",
+      "selector": "p[data-element=\"footer-tagline\"]",
+      "label": "Footer Tagline",
+      "defaultValue": "Delivering the latest in business intelligence and leadership insights",
+      "value": "Delivering the latest in business intelligence and leadership insights",
+      "visible": true,
+      "properties": {
+        "textColor": "#d1d5db",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "text_footer_address",
+      "type": "text",
+      "selector": "p[data-element=\"footer-address\"]",
+      "label": "Footer Address",
+      "defaultValue": "© 2024 Business Weekly. All rights reserved.\n123 Business Ave, Suite 100, New York, NY 10001",
+      "value": "© 2024 Business Weekly. All rights reserved.\n123 Business Ave, Suite 100, New York, NY 10001",
+      "visible": true,
+      "properties": {
+        "textColor": "#6b7280",
+        "fontSize": "11px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 300
+      }
+    },
+    {
+      "id": "footer_company_name",
+      "type": "text",
+      "selector": "p[data-element=\"footer-company-name\"]",
+      "label": "Footer: Company Name",
+      "defaultValue": "Your Company Name",
+      "value": "Your Company Name",
+      "visible": true,
+      "properties": {
+        "textColor": "#1e293b",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "footer_address",
+      "type": "text",
+      "selector": "p[data-element=\"footer-address\"]",
+      "label": "Footer: Company Address",
+      "defaultValue": "123 Main Street<br />City, State 12345<br />United States",
+      "value": "123 Main Street<br />City, State 12345<br />United States",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": true,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "footer_tagline",
+      "type": "text",
+      "selector": "p[data-element=\"footer-tagline\"]",
+      "label": "Footer: Tagline / Trust Indicators",
+      "defaultValue": "Secure checkout • Fast delivery • Easy returns",
+      "value": "Secure checkout • Fast delivery • Easy returns",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 150
+      }
+    },
+    {
+      "id": "footer_social_facebook",
+      "type": "link",
+      "selector": "a[data-element=\"footer-social-facebook\"]",
+      "label": "Footer: Facebook Link",
+      "defaultValue": "Facebook",
+      "value": "Facebook",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_social_twitter",
+      "type": "link",
+      "selector": "a[data-element=\"footer-social-twitter\"]",
+      "label": "Footer: Twitter Link",
+      "defaultValue": "X",
+      "value": "X",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_social_instagram",
+      "type": "link",
+      "selector": "a[data-element=\"footer-social-instagram\"]",
+      "label": "Footer: Instagram Link",
+      "defaultValue": "Instagram",
+      "value": "Instagram",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_social_linkedin",
+      "type": "link",
+      "selector": "a[data-element=\"footer-social-linkedin\"]",
+      "label": "Footer: LinkedIn Link",
+      "defaultValue": "LinkedIn",
+      "value": "LinkedIn",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_link_privacy",
+      "type": "link",
+      "selector": "a[data-element=\"footer-link-privacy\"]",
+      "label": "Footer: Privacy Policy Link",
+      "defaultValue": "Privacy Policy",
+      "value": "Privacy Policy",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#2563eb",
+        "fontSize": "11px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_link_terms",
+      "type": "link",
+      "selector": "a[data-element=\"footer-link-terms\"]",
+      "label": "Footer: Terms of Service Link",
+      "defaultValue": "Terms of Service",
+      "value": "Terms of Service",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#2563eb",
+        "fontSize": "11px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_link_help",
+      "type": "link",
+      "selector": "a[data-element=\"footer-link-help\"]",
+      "label": "Footer: Help Center Link",
+      "defaultValue": "Help Center",
+      "value": "Help Center",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#2563eb",
+        "fontSize": "11px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_link_unsubscribe",
+      "type": "link",
+      "selector": "a[data-element=\"footer-link-unsubscribe\"]",
+      "label": "Footer: Unsubscribe Link",
+      "defaultValue": "Unsubscribe",
+      "value": "Unsubscribe",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#2563eb",
+        "fontSize": "11px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "id": "footer_contact",
+      "type": "text",
+      "selector": "p[data-element=\"footer-contact\"]",
+      "label": "Footer: Contact Information",
+      "defaultValue": "Questions? Contact us at <a href=\"mailto:support@yourcompany.com\" style=\"color: #2563eb; text-decoration: underline;\">support@yourcompany.com</a>",
+      "value": "Questions? Contact us at <a href=\"mailto:support@yourcompany.com\" style=\"color: #2563eb; text-decoration: underline;\">support@yourcompany.com</a>",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "11px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "footer_copyright",
+      "type": "text",
+      "selector": "p[data-element=\"footer-copyright\"]",
+      "label": "Footer: Copyright Notice",
+      "defaultValue": "©YYYY Your Company Name. All rights reserved.",
+      "value": "©YYYY Your Company Name. All rights reserved.",
+      "visible": true,
+      "properties": {
+        "textColor": "#94a3b8",
+        "fontSize": "11px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "header",
+      "name": "Header",
+      "visible": true,
+      "elements": [
+        "img_1",
+        "text_header_tagline"
+      ]
+    },
+    {
+      "id": "featured_article",
+      "name": "Featured Article",
+      "visible": true,
+      "elements": [
+        "img_2",
+        "heading_section_1",
+        "text_featured_body",
+        "text_featured_insight",
+        "section_featured_insight_container",
+        "button_1"
+      ]
+    },
+    {
+      "id": "trending_topics",
+      "name": "Trending Topics",
+      "visible": true,
+      "elements": [
+        "heading_sub_1",
+        "text_trending_subhead",
+        "img_3",
+        "img_4",
+        "img_5",
+        "img_6",
+        "heading_topic_1",
+        "text_topic_1_description",
+        "button_2",
+        "heading_topic_2",
+        "text_topic_2_description",
+        "button_3",
+        "heading_topic_3",
+        "text_topic_3_description",
+        "button_4",
+        "heading_topic_4",
+        "text_topic_4_description",
+        "button_5"
+      ]
+    },
+    {
+      "id": "quick_reads",
+      "name": "Quick Reads",
+      "visible": true,
+      "elements": [
+        "heading_sub_2",
+        "text_quick_subhead",
+        "heading_quick_1",
+        "text_quick_1_summary",
+        "read_more_1",
+        "heading_quick_2",
+        "text_quick_2_summary",
+        "read_more_2",
+        "heading_quick_3",
+        "text_quick_3_summary",
+        "read_more_3"
+      ]
+    },
+    {
+      "id": "footer",
+      "name": "Footer",
+      "visible": true,
+      "elements": [
+        "footer_company_name",
+        "footer_address",
+        "footer_tagline",
+        "footer_social_facebook",
+        "footer_social_twitter",
+        "footer_social_instagram",
+        "footer_social_linkedin",
+        "footer_link_privacy",
+        "footer_link_terms",
+        "footer_link_help",
+        "footer_link_unsubscribe",
+        "footer_contact",
+        "footer_copyright"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,936 @@
+{
+  "meta": {
+    "templateId": "freeflow_event_invite",
+    "templateName": "Event Invitation",
+    "category": "free_flow",
+    "version": "1.0.0",
+    "createdAt": "2025-11-03T03:22:37.520Z",
+    "updatedAt": "2025-11-15T15:34:13.146657Z",
+    "description": "Invite users to events, webinars, or special occasions"
+  },
+  "html": "<!-- Event Invitation Email - Professional Event Styling -->\n\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n  <meta name=\"x-apple-disable-message-reformatting\" />\n  <title>You're Invited - Tech Innovation Summit 2024</title>\n</head>\n<body style=\"margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: #f8fafc;\">\n  <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"margin: 0; padding: 0; width: 100%; background-color: #f8fafc;\" role=\"presentation\">\n    <tr>\n      <td align=\"center\" style=\"padding: 20px 0;\">\n        \n        <!-- Main Container -->\n        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\" style=\"max-width: 600px; width: 100%; background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);\" role=\"presentation\">\n          \n          <!-- Component start Header -->\n          <tr>\n            <td align=\"center\" style=\"padding: 40px 30px 20px 30px; background-color: #ffffff; border-radius: 12px 12px 0 0;\">\n              <!--[if mso | IE]><br /><![endif]-->\n              <img src=\"https://via.placeholder.com/200x60/1e40af/ffffff?text=TECH+SUMMIT\" alt=\"Tech Innovation Summit\" width=\"200\" height=\"60\" style=\"display: block; width: 200px; height: 60px; margin: 0 auto 20px; border: 0;\" />\n              <!--[if mso | IE]><br /><![endif]-->\n              <h1 data-element=\"header-title\" style=\"margin: 0 0 10px 0; color: #1e40af; font-size: 28px; font-weight: 700; line-height: 34px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">You're Invited</h1>\n              <p data-element=\"header-subtitle\" style=\"margin: 0; color: #64748b; font-size: 16px; line-height: 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Join us for an exclusive industry event</p>\n            </td>\n          </tr>\n          <!-- Component end Header -->\n          <!-- Component start Hero Image -->\n          <!-- Hero Image -->\n          <tr>\n            <td style=\"padding: 0;\">\n              <img src=\"https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80\" alt=\"Tech Innovation Summit 2024\" width=\"600\" style=\"display: block; width: 100%; max-width: 600px; height: auto; border: 0;\" />\n            </td>\n          </tr>\n          <!-- Component end Hero Image -->\n          <!-- Component start Heading and Description -->\n          <!-- Heading and Description -->\n          <tr>\n            <td style=\"padding: 40px 30px 0px 30px; background-color: #ffffff;\">\n              <div style=\"text-align: center; margin-bottom: 40px;\">\n                <h2 data-element=\"event-title\" style=\"margin: 0 0 15px 0; color: #1e293b; font-size: 32px; font-weight: 700; line-height: 38px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Tech Innovation Summit 2024</h2>\n                <p data-element=\"event-tagline\" style=\"margin: 0; color: #64748b; font-size: 18px; line-height: 26px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">The Future of Technology is Here</p>\n              </div>\n            </td>\n          </tr>\n          <!-- Component end Heading and Description -->\n          <!-- Component start Details -->\n          <!-- Details -->\n          <tr>\n            <td style=\"padding: 0 30px; background-color: #ffffff;\">\n              <!-- Event Info Cards -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"margin: 40px 0;\" role=\"presentation\">\n                <tr>\n                  <td width=\"60\" valign=\"top\" style=\"padding-right: 20px; padding-bottom: 35px;\">\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"48\" height=\"48\" style=\"border-radius: 12px;\" role=\"presentation\">\n                      <tr>\n                        <td align=\"center\" valign=\"middle\">\n                          <img data-element=\"event-date-icon\" src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ctext x='50%25' y='50%25' font-size='20' text-anchor='middle' dominant-baseline='middle' fill='%231e40af'%3E%F0%9F%93%85%3C/text%3E%3C/svg%3E\" alt=\"Calendar\" width=\"20\" height=\"20\" style=\"display: block; width: 20px; height: 20px; border: 0;\" />\n                        </td>\n                      </tr>\n                    </table>\n                  </td>\n                  <td valign=\"top\" style=\"padding-bottom: 35px;\">\n                    <h3 data-element=\"event-date-heading\" style=\"margin: 0 0 8px 0; color: #1e293b; font-size: 18px; font-weight: 600; line-height: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Date & Time</h3>\n                    <p data-element=\"event-date-value\" style=\"margin: 0; color: #64748b; line-height: 22px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">March 15-17, 2024 | 9:00 AM - 6:00 PM PST</p>\n                  </td>\n                </tr>\n                \n                <tr>\n                  <td width=\"60\" valign=\"top\" style=\"padding-right: 20px; padding-bottom: 35px;\">\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"48\" height=\"48\" style=\"border-radius: 12px;\" role=\"presentation\">\n                      <tr>\n                        <td align=\"center\" valign=\"middle\">\n                          <img data-element=\"event-location-icon\" src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ctext x='50%25' y='50%25' font-size='20' text-anchor='middle' dominant-baseline='middle' fill='%231e40af'%3E%F0%9F%93%8D%3C/text%3E%3C/svg%3E\" alt=\"Location\" width=\"20\" height=\"20\" style=\"display: block; width: 20px; height: 20px; border: 0;\" />\n                        </td>\n                      </tr>\n                    </table>\n                  </td>\n                  <td valign=\"top\" style=\"padding-bottom: 35px;\">\n                    <h3 data-element=\"event-location-heading\" style=\"margin: 0 0 8px 0; color: #1e293b; font-size: 18px; font-weight: 600; line-height: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Location</h3>\n                    <p data-element=\"event-location-value\" style=\"margin: 0; color: #64748b; line-height: 22px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Moscone Center, San Francisco, CA</p>\n                  </td>\n                </tr>\n                \n                <tr>\n                  <td width=\"60\" valign=\"top\" style=\"padding-right: 20px;\">\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"48\" height=\"48\" style=\"border-radius: 12px;\" role=\"presentation\">\n                      <tr>\n                        <td align=\"center\" valign=\"middle\">\n                          <img data-element=\"event-attendees-icon\" src=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ctext x='50%25' y='50%25' font-size='20' text-anchor='middle' dominant-baseline='middle' fill='%231e40af'%3E%F0%9F%91%A5%3C/text%3E%3C/svg%3E\" alt=\"Attendees\" width=\"20\" height=\"20\" style=\"display: block; width: 20px; height: 20px; border: 0;\" />\n                        </td>\n                      </tr>\n                    </table>\n                  </td>\n                  <td valign=\"top\">\n                    <h3 data-element=\"event-attendees-heading\" style=\"margin: 0 0 8px 0; color: #1e293b; font-size: 18px; font-weight: 600; line-height: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Expected Attendees</h3>\n                    <p data-element=\"event-attendees-value\" style=\"margin: 0; color: #64748b; line-height: 22px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">5,000+ industry leaders and innovators</p>\n                  </td>\n                </tr>\n              </table>\n            </td>\n          </tr>\n          <!-- Component end Details -->\n          \n          <!-- Component start Featured Speakers -->\n          <!-- Featured Speakers -->\n          <tr>\n            <td style=\"padding: 0 30px; background-color: #ffffff;\">\n              <!-- Featured Speakers -->\n              <h3 data-element=\"speakers-heading\" style=\"margin: 0 0 25px 0; color: #1e293b; font-size: 20px; font-weight: 600; line-height: 26px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Featured Speakers</h3>\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"margin: 40px 0;\" role=\"presentation\">\n                <tr>\n                  <td width=\"60\" valign=\"top\" style=\"padding-right: 15px; padding-bottom: 15px;\">\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"50\" height=\"50\" style=\"background-color: #e2e8f0; border-radius: 50%;\" role=\"presentation\">\n                      <tr>\n                        <td align=\"center\" valign=\"middle\">\n                          <span style=\"color: #64748b; font-size: 18px; font-weight: 600;\">JS</span>\n                        </td>\n                      </tr>\n                    </table>\n                  </td>\n                  <td valign=\"top\" style=\"padding-bottom: 15px;\">\n                    <h4 data-element=\"speaker-1-name\" style=\"margin: 0 0 5px 0; color: #1e293b; font-size: 16px; font-weight: 600; line-height: 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Jane Smith</h4>\n                    <p data-element=\"speaker-1-title\" style=\"margin: 0; color: #64748b; line-height: 20px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">CTO, Tech Innovations Inc.</p>\n                  </td>\n                </tr>\n                <tr>\n                  <td width=\"60\" valign=\"top\" style=\"padding-right: 15px;\">\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"50\" height=\"50\" style=\"background-color: #e2e8f0; border-radius: 50%;\" role=\"presentation\">\n                      <tr>\n                        <td align=\"center\" valign=\"middle\">\n                          <span style=\"color: #64748b; font-size: 18px; font-weight: 600;\">MJ</span>\n                        </td>\n                      </tr>\n                    </table>\n                  </td>\n                  <td valign=\"top\">\n                    <h4 data-element=\"speaker-2-name\" style=\"margin: 0 0 5px 0; color: #1e293b; font-size: 16px; font-weight: 600; line-height: 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Michael Johnson</h4>\n                    <p data-element=\"speaker-2-title\" style=\"margin: 0; color: #64748b; line-height: 20px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">VP of Engineering, Future Tech Corp</p>\n                  </td>\n                </tr>\n              </table>\n            </td>\n          </tr>\n          <!-- Component end Featured Speakers -->\n          <!-- Component start CTAs -->\n          <!-- CTAs -->\n          <tr>\n            <td style=\"padding: 0 30px; background-color: #ffffff;\">\n              <!-- CTA Buttons -->\n              <!--[if mso | IE]><br /><![endif]-->\n              <!--[if mso]>\n              <div style=\"text-align: center; margin: 40px 0;\">\n                <v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" href=\"#\" style=\"height:54px;v-text-anchor:middle;width:140px;\" arcsize=\"15%\" stroke=\"f\" fillcolor=\"#1e40af\">\n                  <w:anchorlock/>\n                  <center style=\"color:#ffffff;font-family:Segoe UI, Roboto, sans-serif;font-size:16px;font-weight:600;\">\n                    RSVP Now\n                  </center>\n                </v:roundrect>\n                <br />\n                <v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" href=\"#\" style=\"height:54px;v-text-anchor:middle;width:140px;\" arcsize=\"15%\" stroke=\"f\" fillcolor=\"#ffffff\" strokecolor=\"#1e40af\" strokeweight=\"2px\">\n                  <w:anchorlock/>\n                  <center style=\"color:#1e40af;font-family:Segoe UI, Roboto, sans-serif;font-size:16px;font-weight:600;\">\n                    View Agenda\n                  </center>\n                </v:roundrect>\n              </div>\n              <![endif]-->\n              <!--[if !mso]> -->\n              <div style=\"text-align: center; margin: 40px 0;\">\n                <a data-element=\"primary-cta\" href=\"#\" style=\"display: inline-block; padding: 16px 32px; background-color: #1e40af; color: #ffffff; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; line-height: 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0 10px 10px 0;\">RSVP Now</a>\n                <a data-element=\"secondary-cta\" href=\"#\" style=\"display: inline-block; padding: 16px 32px; background-color: #ffffff; color: #1e40af; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; line-height: 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0 0 10px 10px; border: 0;\">View Agenda</a>\n              </div>\n              <!--<![endif]-->\n            </td>\n          </tr>\n          <!-- Component end CTAs -->\n          <!-- Component start Important Note -->\n          <!-- Important Note -->\n          <tr>\n            <td style=\"padding: 0 30px 40px 30px; background-color: #ffffff;\">\n              <!-- Important Note -->\n              <!--[if mso]>\n              <div style=\"padding: 25px; text-align: center;\">\n                <p data-element=\"important-note\" style=\"margin: 0; color: #92400e; font-size: 14px; line-height: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\"><strong>Important:</strong> Seating is limited. Please RSVP by March 1st to secure your spot.</p>\n              </div>\n              <![endif]-->\n              <!--[if !mso]> --><div data-element=\"important-note-container\" style=\"background-color: #fef3c7; border: 1px solid #fbbf24; border-radius: 8px; padding: 25px; text-align: center;\">\n                <p data-element=\"important-note\" style=\"margin: 0; color: #92400e; font-size: 14px; line-height: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\"><strong>Important:</strong> Seating is limited. Please RSVP by March 1st to secure your spot.</p>\n              </div><!--<![endif]-->\n            </td>\n          </tr>\n          <!-- Component end Important Note -->\n                    <!-- Component start Footer -->\n          <!-- Footer Option 2: Standard Footer with Company Info, Links, and Social Media -->\n          <tr>\n            <td align=\"center\" style=\"padding: 40px 20px 30px 20px; background-color: #ffffff; border-radius: 0 0 8px 8px;\">\n              \n              <!-- Divider -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td style=\"padding: 0 0 30px 0; border-top: 1px solid #e2e8f0;\"></td>\n                </tr>\n              </table>\n              \n              <!-- Company Name / Brand -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 15px 0;\">\n                    <p data-element=\"footer-company-name\" style=\"margin: 0; color: #1e293b; font-size: 16px; font-weight: 600; line-height: 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Your Company Name</p>\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Company Address (CAN-SPAM Compliance) -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 20px 0;\">\n                    <p data-element=\"footer-address\" style=\"margin: 0; color: #64748b; font-size: 12px; line-height: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">123 Main Street<br />City, State 12345<br />United States</p>\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Trust Indicators / Tagline -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 25px 0;\">\n                    <p data-element=\"footer-tagline\" style=\"margin: 0; color: #64748b; font-size: 12px; line-height: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Secure checkout • Fast delivery • Easy returns</p>\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Social Media Links -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 25px 0;\">\n                    <!--[if mso]>\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\">\n                      <tr>\n                        <td style=\"padding: 0 8px;\">\n                          <a href=\"#\" style=\"color: #64748b; text-decoration: none; font-size: 12px;\">Facebook</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a href=\"#\" style=\"color: #64748b; text-decoration: none; font-size: 12px;\">Twitter</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a href=\"#\" style=\"color: #64748b; text-decoration: none; font-size: 12px;\">Instagram</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a href=\"#\" style=\"color: #64748b; text-decoration: none; font-size: 12px;\">LinkedIn</a>\n                        </td>\n                      </tr>\n                    </table>\n                    <![endif]-->\n                    <!--[if !mso]> -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"margin: 0 auto;\">\n                      <tr>\n                        <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-social-facebook\" href=\"#\" style=\"display: inline-block; color: #64748b; text-decoration: none; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Facebook</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-social-twitter\" href=\"#\" style=\"display: inline-block; color: #64748b; text-decoration: none; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Twitter</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-social-instagram\" href=\"#\" style=\"display: inline-block; color: #64748b; text-decoration: none; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Instagram</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-social-linkedin\" href=\"#\" style=\"display: inline-block; color: #64748b; text-decoration: none; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">LinkedIn</a>\n                        </td>\n                      </tr>\n                    </table>\n                    <!--<![endif]-->\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Legal & Support Links -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 20px 0;\">\n                    <!--[if mso]>\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\">\n                      <tr>\n                        <td style=\"padding: 0 8px; border-right: 1px solid #e2e8f0;\">\n                          <a href=\"#\" style=\"color: #2563eb; text-decoration: underline; font-size: 11px;\">Privacy Policy</a>\n                        </td>\n                        <td style=\"padding: 0 8px; border-right: 1px solid #e2e8f0;\">\n                          <a href=\"#\" style=\"color: #2563eb; text-decoration: underline; font-size: 11px;\">Terms of Service</a>\n                        </td>\n                        <td style=\"padding: 0 8px; border-right: 1px solid #e2e8f0;\">\n                          <a href=\"#\" style=\"color: #2563eb; text-decoration: underline; font-size: 11px;\">Help Center</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a href=\"#\" style=\"color: #2563eb; text-decoration: underline; font-size: 11px;\">Unsubscribe</a>\n                        </td>\n                      </tr>\n                    </table>\n                    <![endif]-->\n                    <!--[if !mso]> -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"margin: 0 auto;\">\n                      <tr>\n                        <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-link-privacy\" href=\"#\" style=\"display: inline-block; color: #2563eb; text-decoration: underline; font-size: 11px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Privacy Policy</a>\n                        </td>\n                        <td id=\"link_2_separator\" style=\"padding: 0 8px; color: #e2e8f0;\">|</td> <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-link-terms\" href=\"#\" style=\"display: inline-block; color: #2563eb; text-decoration: underline; font-size: 11px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Terms of Service</a>\n                        </td>\n                        <td id=\"link_3_separator\" style=\"padding: 0 8px; color: #e2e8f0;\">|</td> <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-link-help\" href=\"#\" style=\"display: inline-block; color: #2563eb; text-decoration: underline; font-size: 11px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Help Center</a>\n                        </td>\n                        <td id=\"link_4_separator\" style=\"padding: 0 8px; color: #e2e8f0;\">|</td> <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-link-unsubscribe\" href=\"#\" style=\"display: inline-block; color: #2563eb; text-decoration: underline; font-size: 11px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Unsubscribe</a>\n                        </td>\n                      </tr>\n                    </table>\n                    <!--<![endif]-->\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Social Icons (customizable – replace emoji with your icon) -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 20px 0;\">\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"margin: 0 auto;\">\n                      <tr>\n                        <td style=\"padding: 0 10px;\"><a data-element=\"footer-icon-1\" href=\"#\" style=\"display: inline-block; font-size: 24px; line-height: 1; text-decoration: none;\">📘</a></td>\n                        <td style=\"padding: 0 10px;\"><a data-element=\"footer-icon-2\" href=\"#\" style=\"display: inline-block; font-size: 24px; line-height: 1; text-decoration: none;\">🐦</a></td>\n                        <td style=\"padding: 0 10px;\"><a data-element=\"footer-icon-3\" href=\"#\" style=\"display: inline-block; font-size: 24px; line-height: 1; text-decoration: none;\">📷</a></td>\n                        <td style=\"padding: 0 10px;\"><a data-element=\"footer-icon-4\" href=\"#\" style=\"display: inline-block; font-size: 24px; line-height: 1; text-decoration: none;\">💼</a></td>\n                      </tr>\n                    </table>\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Contact Information -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 15px 0;\">\n                    <p data-element=\"footer-contact\" style=\"margin: 0; color: #64748b; font-size: 11px; line-height: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Questions? Contact us at <a href=\"mailto:support@yourcompany.com\" style=\"color: #2563eb; text-decoration: underline;\">support@yourcompany.com</a></p>\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Copyright -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0;\">\n                    <p data-element=\"footer-copyright\" style=\"margin: 0; color: #94a3b8; font-size: 11px; line-height: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">©YYYY Your Company Name. All rights reserved.</p>\n                  </td>\n                </tr>\n              </table>\n              \n            </td>\n          </tr>\n          <!-- Component end Footer -->\n        </table>\n        <!-- End Main Container -->\n        \n      </td>\n    </tr>\n  </table>\n  <!-- End Wrapper -->\n</body>\n</html>\n",
+  "elements": [
+    {
+      "id": "img_1",
+      "type": "image",
+      "selector": "img[alt=\"Tech Innovation Summit\"]",
+      "label": "Image: Tech Innovation Summit",
+      "defaultValue": "https://www.fmt.se/wp-content/uploads/2023/02/logo-placeholder-image.png",
+      "value": "https://www.fmt.se/wp-content/uploads/2023/02/logo-placeholder-image.png",
+      "visible": true,
+      "properties": {
+        "alt": "Tech Innovation Summit",
+        "width": 180,
+        "height": 60,
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "allowedTypes": [
+          "url"
+        ]
+      }
+    },
+    {
+      "id": "img_2",
+      "type": "image",
+      "selector": "img[alt=\"Tech Innovation Summit 2024\"]",
+      "label": "Image: Tech Innovation Summit 2024",
+      "defaultValue": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80",
+      "value": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80",
+      "visible": true,
+      "properties": {
+        "alt": "Tech Innovation Summit 2024",
+        "width": 600,
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "allowedTypes": [
+          "url"
+        ]
+      }
+    },
+    {
+      "id": "heading_main_1",
+      "type": "heading",
+      "selector": "h1[data-element=\"header-title\"]",
+      "label": "Header Title",
+      "defaultValue": "You're Invited",
+      "value": "You're Invited",
+      "visible": true,
+      "properties": {
+        "fontSize": "28px",
+        "textColor": "#1e40af",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": true,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "text_header_subtitle",
+      "type": "text",
+      "selector": "p[data-element=\"header-subtitle\"]",
+      "label": "Header Subtitle",
+      "defaultValue": "Join us for an exclusive industry event",
+      "value": "Join us for an exclusive industry event",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "heading_section_1",
+      "type": "heading",
+      "selector": "h2[data-element=\"event-title\"]",
+      "label": "Event Title",
+      "defaultValue": "Tech Innovation Summit 2024",
+      "value": "Tech Innovation Summit 2024",
+      "visible": true,
+      "properties": {
+        "fontSize": "32px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "text_event_tagline",
+      "type": "text",
+      "selector": "p[data-element=\"event-tagline\"]",
+      "label": "Event Tagline",
+      "defaultValue": "The Future of Technology is Here",
+      "value": "The Future of Technology is Here",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "18px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "heading_event_date",
+      "type": "heading",
+      "selector": "h3[data-element=\"event-date-heading\"]",
+      "label": "Event Date Heading",
+      "defaultValue": "Date & Time",
+      "value": "Date & Time",
+      "visible": true,
+      "properties": {
+        "fontSize": "18px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "text_event_date",
+      "type": "text",
+      "selector": "p[data-element=\"event-date-value\"]",
+      "label": "Event Date Value",
+      "defaultValue": "March 15-17, 2024 | 9:00 AM - 6:00 PM PST",
+      "value": "March 15-17, 2024 | 9:00 AM - 6:00 PM PST",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "heading_event_location",
+      "type": "heading",
+      "selector": "h3[data-element=\"event-location-heading\"]",
+      "label": "Event Location Heading",
+      "defaultValue": "Location",
+      "value": "Location",
+      "visible": true,
+      "properties": {
+        "fontSize": "18px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "text_event_location",
+      "type": "text",
+      "selector": "p[data-element=\"event-location-value\"]",
+      "label": "Event Location Value",
+      "defaultValue": "Moscone Center, San Francisco, CA",
+      "value": "Moscone Center, San Francisco, CA",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "heading_event_attendees",
+      "type": "heading",
+      "selector": "h3[data-element=\"event-attendees-heading\"]",
+      "label": "Event Attendees Heading",
+      "defaultValue": "Expected Attendees",
+      "value": "Expected Attendees",
+      "visible": true,
+      "properties": {
+        "fontSize": "18px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "text_event_attendees",
+      "type": "text",
+      "selector": "p[data-element=\"event-attendees-value\"]",
+      "label": "Event Attendees Value",
+      "defaultValue": "5,000+ industry leaders and innovators",
+      "value": "5,000+ industry leaders and innovators",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "img_event_date_icon",
+      "type": "image",
+      "selector": "img[data-element=\"event-date-icon\"]",
+      "label": "Event Date Icon",
+      "defaultValue": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ctext x='50%25' y='50%25' font-size='20' text-anchor='middle' dominant-baseline='middle' fill='%231e40af'%3E%F0%9F%93%85%3C/text%3E%3C/svg%3E",
+      "value": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ctext x='50%25' y='50%25' font-size='20' text-anchor='middle' dominant-baseline='middle' fill='%231e40af'%3E%F0%9F%93%85%3C/text%3E%3C/svg%3E",
+      "visible": true,
+      "properties": {
+        "alt": "Calendar",
+        "width": 20,
+        "height": 20,
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "allowedTypes": [
+          "url"
+        ]
+      }
+    },
+    {
+      "id": "img_event_location_icon",
+      "type": "image",
+      "selector": "img[data-element=\"event-location-icon\"]",
+      "label": "Event Location Icon",
+      "defaultValue": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ctext x='50%25' y='50%25' font-size='20' text-anchor='middle' dominant-baseline='middle' fill='%231e40af'%3E%F0%9F%93%8D%3C/text%3E%3C/svg%3E",
+      "value": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ctext x='50%25' y='50%25' font-size='20' text-anchor='middle' dominant-baseline='middle' fill='%231e40af'%3E%F0%9F%93%8D%3C/text%3E%3C/svg%3E",
+      "visible": true,
+      "properties": {
+        "alt": "Location",
+        "width": 20,
+        "height": 20,
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "allowedTypes": [
+          "url"
+        ]
+      }
+    },
+    {
+      "id": "img_event_attendees_icon",
+      "type": "image",
+      "selector": "img[data-element=\"event-attendees-icon\"]",
+      "label": "Event Attendees Icon",
+      "defaultValue": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ctext x='50%25' y='50%25' font-size='20' text-anchor='middle' dominant-baseline='middle' fill='%231e40af'%3E%F0%9F%91%A5%3C/text%3E%3C/svg%3E",
+      "value": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ctext x='50%25' y='50%25' font-size='20' text-anchor='middle' dominant-baseline='middle' fill='%231e40af'%3E%F0%9F%91%A5%3C/text%3E%3C/svg%3E",
+      "visible": true,
+      "properties": {
+        "alt": "Attendees",
+        "width": 20,
+        "height": 20,
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "allowedTypes": [
+          "url"
+        ]
+      }
+    },
+    {
+      "id": "heading_speakers",
+      "type": "heading",
+      "selector": "h3[data-element=\"speakers-heading\"]",
+      "label": "Speakers Heading",
+      "defaultValue": "Featured Speakers",
+      "value": "Featured Speakers",
+      "visible": true,
+      "properties": {
+        "fontSize": "20px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 120
+      }
+    },
+    {
+      "id": "heading_speaker_1",
+      "type": "heading",
+      "selector": "h4[data-element=\"speaker-1-name\"]",
+      "label": "Speaker 1 Name",
+      "defaultValue": "Jane Smith",
+      "value": "Jane Smith",
+      "visible": true,
+      "properties": {
+        "fontSize": "16px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 120
+      }
+    },
+    {
+      "id": "text_speaker_1_title",
+      "type": "text",
+      "selector": "p[data-element=\"speaker-1-title\"]",
+      "label": "Speaker 1 Title",
+      "defaultValue": "CTO, Tech Innovations Inc.",
+      "value": "CTO, Tech Innovations Inc.",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "heading_speaker_2",
+      "type": "heading",
+      "selector": "h4[data-element=\"speaker-2-name\"]",
+      "label": "Speaker 2 Name",
+      "defaultValue": "Michael Johnson",
+      "value": "Michael Johnson",
+      "visible": true,
+      "properties": {
+        "fontSize": "16px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 120
+      }
+    },
+    {
+      "id": "text_speaker_2_title",
+      "type": "text",
+      "selector": "p[data-element=\"speaker-2-title\"]",
+      "label": "Speaker 2 Title",
+      "defaultValue": "VP of Engineering, Future Tech Corp",
+      "value": "VP of Engineering, Future Tech Corp",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "button_primary",
+      "type": "button",
+      "selector": "a[data-element=\"primary-cta\"]",
+      "label": "Button: Primary CTA",
+      "defaultValue": "RSVP Now",
+      "value": "RSVP Now",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "backgroundColor": "#1e40af",
+        "textColor": "#ffffff",
+        "fontSize": "16px",
+        "fontWeight": "600"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "button_secondary",
+      "type": "button",
+      "selector": "a[data-element=\"secondary-cta\"]",
+      "label": "Button: Secondary CTA",
+      "defaultValue": "View Agenda",
+      "value": "View Agenda",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "backgroundColor": "#ffffff",
+        "textColor": "#1e40af",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "borderColor": "#1e40af",
+        "borderWidth": "0"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "text_important_note",
+      "type": "text",
+      "selector": "p[data-element=\"important-note\"]",
+      "label": "Important Note",
+      "defaultValue": "<strong>Important:</strong> Seating is limited. Please RSVP by March 1st to secure your spot.",
+      "value": "<strong>Important:</strong> Seating is limited. Please RSVP by March 1st to secure your spot.",
+      "visible": true,
+      "properties": {
+        "textColor": "#92400e",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 300
+      }
+    },
+    {
+      "id": "section_important_note_container",
+      "type": "section",
+      "selector": "table[data-element=\"important-note-container\"], div[data-element=\"important-note-container\"]",
+      "label": "Important Note Container",
+      "defaultValue": "",
+      "value": "",
+      "visible": true,
+      "properties": {
+        "backgroundColor": "#fef3c7",
+        "borderRadius": "8px",
+        "paddingTop": "15px",
+        "paddingRight": "15px",
+        "paddingBottom": "15px",
+        "paddingLeft": "15px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "heading_footer",
+      "type": "heading",
+      "selector": "h3[data-element=\"footer-heading\"]",
+      "label": "Footer Heading",
+      "defaultValue": "Tech Innovation Summit",
+      "value": "Tech Innovation Summit",
+      "visible": true,
+      "properties": {
+        "fontSize": "18px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 120
+      }
+    },
+    {
+      "id": "text_footer_tagline",
+      "type": "text",
+      "selector": "p[data-element=\"footer-tagline\"]",
+      "label": "Footer Tagline",
+      "defaultValue": "Connecting the brightest minds in technology",
+      "value": "Connecting the brightest minds in technology",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "footer_company_name",
+      "type": "text",
+      "selector": "p[data-element=\"footer-company-name\"]",
+      "label": "Footer: Company Name",
+      "defaultValue": "Your Company Name",
+      "value": "Your Company Name",
+      "visible": true,
+      "properties": {
+        "textColor": "#1e293b",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "footer_address",
+      "type": "text",
+      "selector": "p[data-element=\"footer-address\"]",
+      "label": "Footer: Company Address",
+      "defaultValue": "123 Main Street<br />City, State 12345<br />United States",
+      "value": "123 Main Street<br />City, State 12345<br />United States",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": true,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "footer_tagline",
+      "type": "text",
+      "selector": "p[data-element=\"footer-tagline\"]",
+      "label": "Footer: Tagline / Trust Indicators",
+      "defaultValue": "Secure checkout • Fast delivery • Easy returns",
+      "value": "Secure checkout • Fast delivery • Easy returns",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 150
+      }
+    },
+    {
+      "id": "footer_social_facebook",
+      "type": "link",
+      "selector": "a[data-element=\"footer-social-facebook\"]",
+      "label": "Footer: Facebook Link",
+      "defaultValue": "Facebook",
+      "value": "Facebook",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_social_twitter",
+      "type": "link",
+      "selector": "a[data-element=\"footer-social-twitter\"]",
+      "label": "Footer: Twitter Link",
+      "defaultValue": "X",
+      "value": "X",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_social_instagram",
+      "type": "link",
+      "selector": "a[data-element=\"footer-social-instagram\"]",
+      "label": "Footer: Instagram Link",
+      "defaultValue": "Instagram",
+      "value": "Instagram",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_social_linkedin",
+      "type": "link",
+      "selector": "a[data-element=\"footer-social-linkedin\"]",
+      "label": "Footer: LinkedIn Link",
+      "defaultValue": "LinkedIn",
+      "value": "LinkedIn",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_link_privacy",
+      "type": "link",
+      "selector": "a[data-element=\"footer-link-privacy\"]",
+      "label": "Footer: Privacy Policy Link",
+      "defaultValue": "Privacy Policy",
+      "value": "Privacy Policy",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#2563eb",
+        "fontSize": "11px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_link_terms",
+      "type": "link",
+      "selector": "a[data-element=\"footer-link-terms\"]",
+      "label": "Footer: Terms of Service Link",
+      "defaultValue": "Terms of Service",
+      "value": "Terms of Service",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#2563eb",
+        "fontSize": "11px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_link_help",
+      "type": "link",
+      "selector": "a[data-element=\"footer-link-help\"]",
+      "label": "Footer: Help Center Link",
+      "defaultValue": "Help Center",
+      "value": "Help Center",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#2563eb",
+        "fontSize": "11px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_link_unsubscribe",
+      "type": "link",
+      "selector": "a[data-element=\"footer-link-unsubscribe\"]",
+      "label": "Footer: Unsubscribe Link",
+      "defaultValue": "Unsubscribe",
+      "value": "Unsubscribe",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#2563eb",
+        "fontSize": "11px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "id": "footer_contact",
+      "type": "text",
+      "selector": "p[data-element=\"footer-contact\"]",
+      "label": "Footer: Contact Information",
+      "defaultValue": "Questions? Contact us at <a href=\"mailto:support@yourcompany.com\" style=\"color: #2563eb; text-decoration: underline;\">support@yourcompany.com</a>",
+      "value": "Questions? Contact us at <a href=\"mailto:support@yourcompany.com\" style=\"color: #2563eb; text-decoration: underline;\">support@yourcompany.com</a>",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "11px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "footer_copyright",
+      "type": "text",
+      "selector": "p[data-element=\"footer-copyright\"]",
+      "label": "Footer: Copyright Notice",
+      "defaultValue": "©YYYY Your Company Name. All rights reserved.",
+      "value": "©YYYY Your Company Name. All rights reserved.",
+      "visible": true,
+      "properties": {
+        "textColor": "#94a3b8",
+        "fontSize": "11px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "header",
+      "name": "Header",
+      "visible": true,
+      "elements": [
+        "img_1",
+        "heading_main_1",
+        "text_header_subtitle"
+      ]
+    },
+    {
+      "id": "heading_and_description",
+      "name": "Heading and Description",
+      "visible": true,
+      "elements": [
+        "heading_section_1",
+        "text_event_tagline"
+      ]
+    },
+    {
+      "id": "details",
+      "name": "Details",
+      "visible": true,
+      "elements": [
+        "heading_event_date",
+        "img_event_date_icon",
+        "text_event_date",
+        "heading_event_location",
+        "img_event_location_icon",
+        "text_event_location",
+        "heading_event_attendees",
+        "img_event_attendees_icon",
+        "text_event_attendees"
+      ]
+    },
+    {
+      "id": "featured_speakers",
+      "name": "Featured Speakers",
+      "visible": true,
+      "elements": [
+        "heading_speakers",
+        "heading_speaker_1",
+        "text_speaker_1_title",
+        "heading_speaker_2",
+        "text_speaker_2_title"
+      ]
+    },
+    {
+      "id": "ctas",
+      "name": "CTAs",
+      "visible": true,
+      "elements": [
+        "button_primary",
+        "button_secondary"
+      ]
+    },
+    {
+      "id": "important_note",
+      "name": "Important Note",
+      "visible": true,
+      "elements": [
+        "text_important_note",
+        "section_important_note_container"
+      ]
+    },
+    {
+      "id": "footer",
+      "name": "Footer",
+      "visible": true,
+      "elements": [
+        "footer_company_name",
+        "footer_address",
+        "footer_tagline",
+        "footer_social_facebook",
+        "footer_social_twitter",
+        "footer_social_instagram",
+        "footer_social_linkedin",
+        "footer_link_privacy",
+        "footer_link_terms",
+        "footer_link_help",
+        "footer_link_unsubscribe",
+        "footer_contact",
+        "footer_copyright"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+# --- Secrets / local env ---
+.env
+.env.*
+!.env.example
+!.env.template
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.template
+
+# --- Node / frontend ---
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.npm/
+.yarn/
+
+# Build outputs
+dist/
+build/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# --- Python / FastAPI ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+**/venv/
+**/.venv/
+
+# --- IDE / OS ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- Local runtime data ---
+*.log
+*.pid
+*.seed
+*.out
+*.err
+
+# --- Archives / temp ---
+*.zip
+*.tar
+*.gz
+*.tmp
+*.temp
+
+# --- Project docs (local only) ---
+docs/
+Log/
+logs/
+FIX_DOCUMENTATION/
+test-data/
+backend-fastapi/transactions.db
+backend-node/CONNECTIVITY_TEST_RESULTS.md
+
+# Large media (host elsewhere or use Git LFS)
+VideoDemos/
+*.mov
+TrimmedEmailBuild.mp4
+public/videos/
+public/Mailcraft.mp4
+
+# Legacy scripts with local test data
+scripts/legacy/
+
+# --- Dev / test / audit artifacts (local only) ---
+backups/
+theb/
+*.backup
+
+# Backend dev utilities
+backend-fastapi/test_*.py
+backend-fastapi/debug_*.py
+backend-fastapi/export_test_user_credentials.py
+backend-fastapi/seed_test_users.py
+backend-fastapi/create_test_users*.py
+backend-fastapi/create_default_users_supabase.py
+backend-fastapi/migrate_user_tiers.py
+backend-fastapi/update_standard_user_expiration.*
+backend-fastapi/setup_supabase_env.py
+backend-fastapi/migrations/004_create_test_items_table.sql
+backend-fastapi/migrations/export_*.py
+backend-fastapi/migrations/import_localstorage_to_postgres.py
+backend-fastapi/sql/seed_demo_pro_user.sql
+backend-fastapi/sql/audit_user_subscription.sql
+backend-node/test-stripe-connection.js
+
+# Frontend test / debug pages
+src/pages/SupabaseTestSandbox.tsx
+src/pages/StripeTestArea.tsx
+src/pages/TestLandingPage.tsx
+src/pages/Newsletter/TestArea.jsx
+src/pages/admin/AdminStripeTest.tsx
+src/pages/admin/DebugSavedTemplates.tsx
+src/pages/admin/ClearComponentLibrary.tsx
+src/pages/admin/CreateHeaderComponent.tsx
+src/pages/admin/CreateSingleProductComponent.tsx
+src/pages/admin/CreateProductsGridComponent.tsx
+src/pages/admin/ExtractMasterTemplateComponents.tsx
+src/pages/admin/MigrateComponentsToSupabase.tsx
+src/pages/admin/UploadDesignSystemToSupabase.tsx
+
+# Frontend test / migration utilities
+src/utils/testBackendConnection.ts
+src/utils/testSupabaseConnection.ts
+src/utils/verifySupabaseSetup.ts
+src/utils/clearComponentLibrary.ts
+src/utils/createHeaderComponent.ts
+src/utils/createProductsGridComponent.ts
+src/utils/createSingleProductComponent.ts
+src/utils/extractComponentsFromMasterTemplate.ts
+src/utils/extractAllTemplateComponents.ts
+src/utils/migrateComponentsToSupabase.ts
+src/utils/uploadDesignSystemToSupabase.ts
+
+# Test templates in assets
+public/test_template.html
+src/assets/dynamicEmailTemplates/test_template.*
+
+# Audit / debug scripts
+scripts/audit*
+scripts/debug*
+scripts/diagnose*
+scripts/test*
+scripts/comprehensive-audit*
+scripts/verify_fixes.mjs
+scripts/utilities/
+
+backend-fastapi/migrations/update_main_for_supabase.py
+backend-fastapi/migrations/supabase_quick_start.sh
+
+# --- Internal documentation (not for public repo) ---
+PROJECT_ORGANIZATION.md
+logic_documentation/
+padding-solution/
+_img/
+backend-fastapi/README.md
+backend-fastapi/UPGRADE_TEST_REPORT.md
+backend-fastapi/test_subscription_final_report.md
+backend-fastapi/migrations/README.md
+backend-fastapi/migrations/SUPABASE_MIGRATION_GUIDE.md
+backend-fastapi/migrations/SUPABASE_QUICK_START.md
+backend-node/README.md
+src/assets/emailTemplateshtml/example_email_structure.txt
+
+# All markdown except root README
+*.md
+!README.md
+**/*.md
+!README.md

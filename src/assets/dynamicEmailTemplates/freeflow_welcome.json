@@ -1,0 +1,810 @@
+{
+  "meta": {
+    "templateId": "freeflow_welcome",
+    "templateName": "Welcome & Onboarding",
+    "category": "free_flow",
+    "version": "1.0.0",
+    "createdAt": "2025-11-03T03:22:37.518Z",
+    "updatedAt": "2025-11-15T15:55:45.003686Z",
+    "description": "Welcome new users to your platform or service"
+  },
+  "html": "<!-- Welcome/Onboarding Email Template - Formatted for ESP Compatibility -->\n\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>\n  <meta name=\"x-apple-disable-message-reformatting\" />\n  <title>Welcome to Our Platform</title>\n</head>\n<body style=\"margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: #f8fafc;\">\n  <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"margin: 0; padding: 0; width: 100%; background-color: #f8fafc;\" role=\"presentation\">\n    <tr>\n      <td align=\"center\" style=\"padding: 20px 0;\">\n        \n        <!-- Main Container -->\n        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\" style=\"max-width: 600px; width: 100%; background-color: #ffffff; border-radius: 12px;\" role=\"presentation\">\n          \n          <!-- Component start Header -->\n          <tr>\n            <td align=\"center\" style=\"padding: 40px 30px 20px 30px; background-color: #ffffff; border-radius: 12px 12px 0 0;\">\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\">\n                    <img src=\"https://via.placeholder.com/150x50/2563eb/ffffff?text=YourBrand\" alt=\"Your Brand\" width=\"150\" height=\"50\" style=\"display: block; width: 150px; height: 50px; margin: 0 auto 20px; border: 0;\" />\n                  </td>\n                </tr>\n                <tr>\n                  <td align=\"center\">\n                    <h1 style=\"margin: 0 0 10px 0; color: #1e293b; font-size: 32px; font-weight: 700; line-height: 38px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Welcome aboard!</h1>\n                  </td>\n                </tr>\n                <tr>\n                  <td align=\"center\">\n                    <p data-element=\"header-subhead\" style=\"margin: 0; color: #64748b; font-size: 18px; line-height: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">We're thrilled to have you join our community</p>\n                  </td>\n                </tr>\n              </table>\n            </td>\n          </tr>\n          <!-- Component end Header -->\n          <!-- Component start Hero Image -->\n          <!-- Hero Image -->\n          <tr>\n            <td style=\"padding: 0;\">\n              <!--[if mso]>\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\">\n                    <v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" style=\"height:300px;v-text-anchor:middle;width:600px;\" arcsize=\"0%\" stroke=\"f\" fillcolor=\"#ffffff\">\n                      <w:anchorlock/>\n                      <v:imagedata src=\"https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=300&fit=crop&q=80\" crop=\"true\" />\n                    </v:roundrect>\n                  </td>\n                </tr>\n              </table>\n              <![endif]-->\n              <!--[if !mso]> -->\n              <img data-element=\"logo\" src=\"https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=300&fit=crop&q=80\" alt=\"Welcome to our platform\" width=\"600\" style=\"display: block; width: 100%; max-width: 600px; height: auto; border: 0;\" />\n              <!--<![endif]-->\n            </td>\n          </tr>\n          <!-- Component end Hero Image -->\n          <!-- Component start Text Content -->\n          <!-- Text Content -->\n          <tr>\n            <td style=\"padding: 40px 30px 0px 30px; background-color: #ffffff;\">\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td>\n                    <h2 style=\"margin: 0 0 25px 0; color: #1e293b; font-size: 24px; font-weight: 600; line-height: 30px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Let's get you started</h2>\n                  </td>\n                </tr>\n                <tr>\n                  <td>\n                    <p data-element=\"welcome-description\" style=\"margin: 0 0 25px 0; color: #475569; line-height: 26px; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Hi there! We're excited to have you on board. Our platform is designed to help you achieve your goals faster and more efficiently. Here's what you can do to get the most out of your experience:</p>\n                  </td>\n                </tr>\n              </table>\n            </td>\n          </tr>\n          <!-- Component end Text Content -->\n          <!-- Component start Bulletpoints -->\n          <!-- Bulletpoints -->\n          <tr>\n            <td style=\"padding: 0 30px; background-color: #ffffff;\">\n              <!-- Steps -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"margin: 20px 0;\" role=\"presentation\">\n                <!-- Step 1 -->\n                <tr>\n                  <!--[if mso]>\n                  <td width=\"40\" valign=\"top\" style=\"padding-right: 15px; padding-bottom: 10px;\">\n                  <![endif]-->\n                  <!--[if !mso]> -->\n                  <td width=\"40\" valign=\"top\" style=\"padding-right: 15px; padding-bottom: 20px;\">\n                  <!--<![endif]-->\n                    <!--[if mso]>\n                    <v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" style=\"height:32px;v-text-anchor:middle;width:32px;\" arcsize=\"100%\" stroke=\"f\" fillcolor=\"#2563eb\">\n                      <w:anchorlock/>\n                      <center data-element=\"step-1-number\" style=\"color:#ffffff;font-family:Segoe UI, Roboto, sans-serif;font-size:14px;font-weight:600; border-radius: 100px;\">\n                        1\n                      </center>\n                    </v:roundrect>\n                    <![endif]-->\n                    <!--[if !mso]> -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"32\" height=\"32\" style=\"background-color: transparent; border-collapse: separate;\" role=\"presentation\">\n                      <tr>\n                        <td data-element=\"step-1-number\" align=\"center\" valign=\"middle\" width=\"32\" height=\"32\" style=\"background-color: #2563eb; color: #ffffff; font-weight: 600; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; border-radius: 50%; line-height: 32px;\">1</td>\n                      </tr>\n                    </table>\n                    <!--<![endif]-->\n                  </td>\n                  <!--[if mso]>\n                  <td valign=\"top\" style=\"padding-bottom: 10px;\">\n                  <![endif]-->\n                  <!--[if !mso]> -->\n                  <td valign=\"top\" style=\"padding-bottom: 20px;\">\n                  <!--<![endif]-->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                      <tr>\n                        <td>\n                          <h3 data-element=\"step-1-title\" style=\"margin: 0 0 8px 0; color: #1e293b; font-size: 18px; font-weight: 600; line-height: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Complete your profile</h3>\n                        </td>\n                      </tr>\n                      <tr>\n                        <td>\n                          <p data-element=\"step-1-description\" style=\"margin: 0; color: #64748b; line-height: 22px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Add your information to personalize your experience</p>\n                        </td>\n                      </tr>\n                    </table>\n                  </td>\n                </tr>\n                \n                <!-- Step 2 -->\n                <tr>\n                  <!--[if mso]>\n                  <td width=\"40\" valign=\"top\" style=\"padding-right: 15px; padding-bottom: 10px;\">\n                  <![endif]-->\n                  <!--[if !mso]> -->\n                  <td width=\"40\" valign=\"top\" style=\"padding-right: 15px; padding-bottom: 20px;\">\n                  <!--<![endif]-->\n                    <!--[if mso]>\n                    <v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" style=\"height:32px;v-text-anchor:middle;width:32px;\" arcsize=\"100%\" stroke=\"f\" fillcolor=\"#2563eb\">\n                      <w:anchorlock/>\n                      <center data-element=\"step-2-number\" style=\"color:#ffffff;font-family:Segoe UI, Roboto, sans-serif;font-size:14px;font-weight:600; border-radius: 100px;\">\n                        2\n                      </center>\n                    </v:roundrect>\n                    <![endif]-->\n                    <!--[if !mso]> -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"32\" height=\"32\" style=\"background-color: transparent; border-collapse: separate;\" role=\"presentation\">\n                      <tr>\n                        <td data-element=\"step-2-number\" align=\"center\" valign=\"middle\" width=\"32\" height=\"32\" style=\"background-color: #2563eb; color: #ffffff; font-weight: 600; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; border-radius: 50%; line-height: 32px;\">2</td>\n                      </tr>\n                    </table>\n                    <!--<![endif]-->\n                  </td>\n                  <!--[if mso]>\n                  <td valign=\"top\" style=\"padding-bottom: 10px;\">\n                  <![endif]-->\n                  <!--[if !mso]> -->\n                  <td valign=\"top\" style=\"padding-bottom: 20px;\">\n                  <!--<![endif]-->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                      <tr>\n                        <td>\n                          <h3 data-element=\"step-2-title\" style=\"margin: 0 0 8px 0; color: #1e293b; font-size: 18px; font-weight: 600; line-height: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Explore our features</h3>\n                        </td>\n                      </tr>\n                      <tr>\n                        <td>\n                          <p data-element=\"step-2-description\" style=\"margin: 0; color: #64748b; line-height: 22px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Take a tour of our platform and discover powerful tools</p>\n                        </td>\n                      </tr>\n                    </table>\n                  </td>\n                </tr>\n                \n                <!-- Step 3 -->\n                <tr>\n                  <!--[if mso]>\n                  <td width=\"40\" valign=\"top\" style=\"padding-right: 15px; padding-bottom: 0px;\">\n                  <![endif]-->\n                  <!--[if !mso]> -->\n                  <td width=\"40\" valign=\"top\" style=\"padding-right: 15px;\">\n                  <!--<![endif]-->\n                    <!--[if mso]>\n                    <v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" style=\"height:32px;v-text-anchor:middle;width:32px;\" arcsize=\"100%\" stroke=\"f\" fillcolor=\"#2563eb\">\n                      <w:anchorlock/>\n                      <center data-element=\"step-3-number\" style=\"color:#ffffff;font-family:Segoe UI, Roboto, sans-serif;font-size:14px;font-weight:600; border-radius: 100px;\">\n                        3\n                      </center>\n                    </v:roundrect>\n                    <![endif]-->\n                    <!--[if !mso]> -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"32\" height=\"32\" style=\"background-color: transparent; border-collapse: separate;\" role=\"presentation\">\n                      <tr>\n                        <td data-element=\"step-3-number\" align=\"center\" valign=\"middle\" width=\"32\" height=\"32\" style=\"background-color: #2563eb; color: #ffffff; font-weight: 600; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; border-radius: 50%; line-height: 32px;\">3</td>\n                      </tr>\n                    </table>\n                    <!--<![endif]-->\n                  </td>\n                  <!--[if mso]>\n                  <td valign=\"top\" style=\"padding-bottom: 0px;\">\n                  <![endif]-->\n                  <!--[if !mso]> -->\n                  <td valign=\"top\">\n                  <!--<![endif]-->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                      <tr>\n                        <td>\n                          <h3 data-element=\"step-3-title\" style=\"margin: 0 0 8px 0; color: #1e293b; font-size: 18px; font-weight: 600; line-height: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Connect with our community</h3>\n                        </td>\n                      </tr>\n                      <tr>\n                        <td>\n                          <p data-element=\"step-3-description\" style=\"margin: 0; color: #64748b; line-height: 22px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Join discussions and learn from other users</p>\n                        </td>\n                      </tr>\n                    </table>\n                  </td>\n                </tr>\n              </table>\n            </td>\n          </tr>\n          <!-- Component end Bulletpoints -->\n          <!-- Component start CTA -->\n          <!-- CTA -->\n          <tr>\n            <td style=\"padding: 0 30px; background-color: #ffffff;\">\n              <!-- CTA Button -->\n              <!--[if mso]>\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"margin: 35px 0 35px 0;\" role=\"presentation\">\n              <![endif]-->\n              <!--[if !mso]> -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"margin: 35px 0 35px 0;\" role=\"presentation\">\n              <!--<![endif]-->\n                <tr>\n                  <td align=\"center\">\n                    <!--[if mso]>\n                    <v:roundrect xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" href=\"#\" style=\"height:54px;v-text-anchor:middle;width:200px;\" arcsize=\"15%\" stroke=\"f\" fillcolor=\"#2563eb\">\n                      <w:anchorlock/>\n                      <center style=\"color:#ffffff;font-family:Segoe UI, Roboto, sans-serif;font-size:16px;font-weight:600;\">\n                        Get Started Now\n                      </center>\n                    </v:roundrect>\n                    <![endif]-->\n                    <!--[if !mso]> -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\">\n                      <tr>\n                        <td data-element=\"primary-cta-button\" align=\"center\" style=\"padding: 16px 32px; background-color: #2563eb; border-radius: 8px;\">\n                          <a data-element=\"primary-cta\" href=\"#\" style=\"color: #ffffff; text-decoration: none; font-weight: 600; font-size: 16px; line-height: 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Get Started Now</a>\n                        </td>\n                      </tr>\n                    </table>\n                    <!--<![endif]-->\n                  </td>\n                </tr>\n              </table>\n            </td>\n          </tr>\n          <!-- Component end CTA -->\n          <!-- Component start Notification Block -->\n          <!-- Notification Block -->\n          <tr>\n            <td style=\"padding: 0 30px 40px 30px; background-color: #ffffff;\">\n               <!--[if mso | IE]><br /><![endif]-->\n              \n              <!-- Support Section -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"background-color: #f1f5f9; border-radius: 8px; margin-top: 30px;\" role=\"presentation\" data-element=\"support-container\">\n                <tr>\n                  <td style=\"padding: 25px;\">\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                      <tr>\n                        <td>\n                          <h3 data-element=\"step-4-title\" style=\"margin: 0 0 15px 0; padding-top: 15px; color: #1e293b; font-size: 18px; font-weight: 600; line-height: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Need help getting started?</h3>\n                        </td>\n                      </tr>\n                      <tr>\n                        <td>\n                          <p data-element=\"support-message\" style=\"margin: 0 0 15px 0; color: #64748b; line-height: 22px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Our support team is here to help you every step of the way.</p>\n                        </td>\n                      </tr>\n                      <tr>\n                        <td>\n                          <a data-element=\"contact-support-link\" href=\"#\" style=\"color: #2563eb; text-decoration: none; font-weight: 500; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Contact Support →</a>\n                        </td>\n                      </tr>\n                    </table>\n                  </td>\n                </tr>\n              </table>\n            </td>\n          </tr>\n          <!-- Component end Notification Block -->\n          <!-- Component start Footer -->\n          <!-- Footer Option 2: Standard Footer with Company Info, Links, and Social Media -->\n          <tr>\n            <td align=\"center\" style=\"padding: 40px 20px 30px 20px; background-color: #ffffff; border-radius: 0 0 12px 12px;\">\n              \n              <!-- Divider -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td style=\"padding: 0 0 30px 0; border-top: 1px solid #e2e8f0;\"></td>\n                </tr>\n              </table>\n              \n              <!-- Company Name / Brand -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 15px 0;\">\n                    <p data-element=\"footer-company-name\" style=\"margin: 0; color: #1e293b; font-size: 16px; font-weight: 600; line-height: 22px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Your Company Name</p>\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Company Address (CAN-SPAM Compliance) -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 20px 0;\">\n                    <p data-element=\"footer-address\" style=\"margin: 0; color: #64748b; font-size: 12px; line-height: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">123 Main Street<br />City, State 12345<br />United States</p>\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Trust Indicators / Tagline -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 25px 0;\">\n                    <p data-element=\"footer-tagline\" style=\"margin: 0; color: #64748b; font-size: 12px; line-height: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Secure checkout • Fast delivery • Easy returns</p>\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Social Media Links -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 25px 0;\">\n                    <!--[if mso]>\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\">\n                      <tr>\n                        <td style=\"padding: 0 8px;\">\n                          <a href=\"#\" style=\"color: #64748b; text-decoration: none; font-size: 12px;\">Facebook</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a href=\"#\" style=\"color: #64748b; text-decoration: none; font-size: 12px;\">Twitter</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a href=\"#\" style=\"color: #64748b; text-decoration: none; font-size: 12px;\">Instagram</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a href=\"#\" style=\"color: #64748b; text-decoration: none; font-size: 12px;\">LinkedIn</a>\n                        </td>\n                      </tr>\n                    </table>\n                    <![endif]-->\n                    <!--[if !mso]> -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"margin: 0 auto;\">\n                      <tr>\n                        <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-social-facebook\" href=\"#\" style=\"display: inline-block; color: #64748b; text-decoration: none; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Facebook</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-social-twitter\" href=\"#\" style=\"display: inline-block; color: #64748b; text-decoration: none; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Twitter</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-social-instagram\" href=\"#\" style=\"display: inline-block; color: #64748b; text-decoration: none; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Instagram</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-social-linkedin\" href=\"#\" style=\"display: inline-block; color: #64748b; text-decoration: none; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">LinkedIn</a>\n                        </td>\n                      </tr>\n                    </table>\n                    <!--<![endif]-->\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Legal & Support Links -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 20px 0;\">\n                    <!--[if mso]>\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\">\n                      <tr>\n                        <td style=\"padding: 0 8px; border-right: 1px solid #e2e8f0;\">\n                          <a href=\"#\" style=\"color: #2563eb; text-decoration: underline; font-size: 11px;\">Privacy Policy</a>\n                        </td>\n                        <td style=\"padding: 0 8px; border-right: 1px solid #e2e8f0;\">\n                          <a href=\"#\" style=\"color: #2563eb; text-decoration: underline; font-size: 11px;\">Terms of Service</a>\n                        </td>\n                        <td style=\"padding: 0 8px; border-right: 1px solid #e2e8f0;\">\n                          <a href=\"#\" style=\"color: #2563eb; text-decoration: underline; font-size: 11px;\">Help Center</a>\n                        </td>\n                        <td style=\"padding: 0 8px;\">\n                          <a href=\"#\" style=\"color: #2563eb; text-decoration: underline; font-size: 11px;\">Unsubscribe</a>\n                        </td>\n                      </tr>\n                    </table>\n                    <![endif]-->\n                    <!--[if !mso]> -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"margin: 0 auto;\">\n                      <tr>\n                        <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-link-privacy\" href=\"#\" style=\"display: inline-block; color: #2563eb; text-decoration: underline; font-size: 11px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Privacy Policy</a>\n                        </td>\n                        <td id=\"link_2_separator\" style=\"padding: 0 8px; color: #e2e8f0;\">|</td> <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-link-terms\" href=\"#\" style=\"display: inline-block; color: #2563eb; text-decoration: underline; font-size: 11px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Terms of Service</a>\n                        </td>\n                        <td id=\"link_3_separator\" style=\"padding: 0 8px; color: #e2e8f0;\">|</td> <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-link-help\" href=\"#\" style=\"display: inline-block; color: #2563eb; text-decoration: underline; font-size: 11px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Help Center</a>\n                        </td>\n                        <td id=\"link_4_separator\" style=\"padding: 0 8px; color: #e2e8f0;\">|</td> <td style=\"padding: 0 8px;\">\n                          <a data-element=\"footer-link-unsubscribe\" href=\"#\" style=\"display: inline-block; color: #2563eb; text-decoration: underline; font-size: 11px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Unsubscribe</a>\n                        </td>\n                      </tr>\n                    </table>\n                    <!--<![endif]-->\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Social Icons (customizable – replace emoji with your icon) -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 20px 0;\">\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"margin: 0 auto;\">\n                      <tr>\n                        <td style=\"padding: 0 10px;\"><a data-element=\"footer-icon-1\" href=\"#\" style=\"display: inline-block; font-size: 24px; line-height: 1; text-decoration: none;\">📘</a></td>\n                        <td style=\"padding: 0 10px;\"><a data-element=\"footer-icon-2\" href=\"#\" style=\"display: inline-block; font-size: 24px; line-height: 1; text-decoration: none;\">🐦</a></td>\n                        <td style=\"padding: 0 10px;\"><a data-element=\"footer-icon-3\" href=\"#\" style=\"display: inline-block; font-size: 24px; line-height: 1; text-decoration: none;\">📷</a></td>\n                        <td style=\"padding: 0 10px;\"><a data-element=\"footer-icon-4\" href=\"#\" style=\"display: inline-block; font-size: 24px; line-height: 1; text-decoration: none;\">💼</a></td>\n                      </tr>\n                    </table>\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Contact Information -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0 0 15px 0;\">\n                    <p data-element=\"footer-contact\" style=\"margin: 0; color: #64748b; font-size: 11px; line-height: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">Questions? Contact us at <a href=\"mailto:support@yourcompany.com\" style=\"color: #2563eb; text-decoration: underline;\">support@yourcompany.com</a></p>\n                  </td>\n                </tr>\n              </table>\n              \n              <!-- Copyright -->\n              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\">\n                <tr>\n                  <td align=\"center\" style=\"padding: 0;\">\n                    <p data-element=\"footer-copyright\" style=\"margin: 0; color: #94a3b8; font-size: 11px; line-height: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\">©YYYY Your Company Name. All rights reserved.</p>\n                  </td>\n                </tr>\n              </table>\n              \n            </td>\n          </tr>\n          <!-- Component end Footer -->\n        </table>\n        <!-- End Main Container -->\n        \n      </td>\n    </tr>\n  </table>\n  <!-- End Wrapper -->\n</body>\n</html>\n\n",
+  "elements": [
+    {
+      "id": "img_1",
+      "type": "image",
+      "selector": "img[alt=\"Your Brand\"]",
+      "label": "Image: Your Brand",
+      "defaultValue": "https://www.fmt.se/wp-content/uploads/2023/02/logo-placeholder-image.png",
+      "value": "https://www.fmt.se/wp-content/uploads/2023/02/logo-placeholder-image.png",
+      "visible": true,
+      "properties": {
+        "alt": "Your Brand",
+        "width": 180,
+        "height": 60,
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "allowedTypes": [
+          "url"
+        ]
+      }
+    },
+    {
+      "id": "img_2",
+      "type": "image",
+      "selector": "img[alt=\"Welcome to our platform\"]",
+      "label": "Image: Welcome to our platform",
+      "defaultValue": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=300&fit=crop&q=80",
+      "value": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=300&fit=crop&q=80",
+      "visible": true,
+      "properties": {
+        "alt": "Welcome to our platform",
+        "width": 600,
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "allowedTypes": [
+          "url"
+        ]
+      }
+    },
+    {
+      "id": "heading_main_1",
+      "type": "heading",
+      "selector": "h1",
+      "label": "Main Heading ",
+      "defaultValue": "Welcome aboard!",
+      "value": "Welcome aboard!",
+      "visible": true,
+      "properties": {
+        "fontSize": "32px",
+        "textColor": "#1e293b",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": true,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "text_header_subhead",
+      "type": "text",
+      "selector": "p[data-element=\"header-subhead\"]",
+      "label": "Header Subheading",
+      "defaultValue": "We're thrilled to have you join our community",
+      "value": "We're thrilled to have you join our community",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "18px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 160
+      }
+    },
+    {
+      "id": "heading_section_1",
+      "type": "heading",
+      "selector": "h2",
+      "label": "Section Heading ",
+      "defaultValue": "Let's get you started",
+      "value": "Let's get you started",
+      "visible": true,
+      "properties": {
+        "fontSize": "24px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "text_welcome_description",
+      "type": "text",
+      "selector": "p[data-element=\"welcome-description\"]",
+      "label": "Welcome Description",
+      "defaultValue": "Hi there! We're excited to have you on board. Our platform is designed to help you achieve your goals faster and more efficiently. Here's what you can do to get the most out of your experience:",
+      "value": "Hi there! We're excited to have you on board. Our platform is designed to help you achieve your goals faster and more efficiently. Here's what you can do to get the most out of your experience:",
+      "visible": true,
+      "properties": {
+        "textColor": "#475569",
+        "fontSize": "16px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "textAlign": "center"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 400
+      }
+    },
+    {
+      "id": "text_step_1_number",
+      "type": "text",
+      "selector": "td[data-element=\"step-1-number\"], center[data-element=\"step-1-number\"]",
+      "label": "Step 1 Number",
+      "defaultValue": "1",
+      "value": "1",
+      "visible": true,
+      "properties": {
+        "fontSize": "14px",
+        "textColor": "#ffffff",
+        "fontWeight": "600",
+        "backgroundColor": "#2563eb",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "borderRadius": "50%"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 5
+      }
+    },
+    {
+      "id": "heading_sub_1",
+      "type": "heading",
+      "selector": "h3[data-element=\"step-1-title\"]",
+      "label": "Sub Heading 1",
+      "defaultValue": "Subheader 1",
+      "value": "Subheader 1",
+      "visible": true,
+      "properties": {
+        "fontSize": "18px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "text_step_1_description",
+      "type": "text",
+      "selector": "p[data-element=\"step-1-description\"]",
+      "label": "Step 1 Description",
+      "defaultValue": "Add your information to personalize your experience",
+      "value": "Add your information to personalize your experience",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 180
+      }
+    },
+    {
+      "id": "text_step_2_number",
+      "type": "text",
+      "selector": "td[data-element=\"step-2-number\"], center[data-element=\"step-2-number\"]",
+      "label": "Step 2 Number",
+      "defaultValue": "2",
+      "value": "2",
+      "visible": true,
+      "properties": {
+        "fontSize": "14px",
+        "textColor": "#ffffff",
+        "fontWeight": "600",
+        "backgroundColor": "#2563eb",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "borderRadius": "50%"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 5
+      }
+    },
+    {
+      "id": "heading_sub_2",
+      "type": "heading",
+      "selector": "h3[data-element=\"step-2-title\"]",
+      "label": "Sub Heading 2",
+      "defaultValue": "Subheader 2",
+      "value": "Subheader 2",
+      "visible": true,
+      "properties": {
+        "fontSize": "18px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "text_step_2_description",
+      "type": "text",
+      "selector": "p[data-element=\"step-2-description\"]",
+      "label": "Step 2 Description",
+      "defaultValue": "Take a tour of our platform and discover powerful tools",
+      "value": "Take a tour of our platform and discover powerful tools",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 180
+      }
+    },
+    {
+      "id": "text_step_3_number",
+      "type": "text",
+      "selector": "td[data-element=\"step-3-number\"], center[data-element=\"step-3-number\"]",
+      "label": "Step 3 Number",
+      "defaultValue": "3",
+      "value": "3",
+      "visible": true,
+      "properties": {
+        "fontSize": "14px",
+        "textColor": "#ffffff",
+        "fontWeight": "600",
+        "backgroundColor": "#2563eb",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "borderRadius": "50%"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 5
+      }
+    },
+    {
+      "id": "heading_sub_3",
+      "type": "heading",
+      "selector": "h3[data-element=\"step-3-title\"]",
+      "label": "Sub Heading 3",
+      "defaultValue": "Subheader 3",
+      "value": "Subheader 3",
+      "visible": true,
+      "properties": {
+        "fontSize": "18px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "text_step_3_description",
+      "type": "text",
+      "selector": "p[data-element=\"step-3-description\"]",
+      "label": "Step 3 Description",
+      "defaultValue": "Join discussions and learn from other users",
+      "value": "Join discussions and learn from other users",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "14px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 180
+      }
+    },
+    {
+      "id": "heading_sub_4",
+      "type": "heading",
+      "selector": "h3[data-element=\"step-4-title\"]",
+      "label": "Sub Heading 4",
+      "defaultValue": "Subheader 4",
+      "value": "Subheader 4",
+      "visible": true,
+      "properties": {
+        "fontSize": "18px",
+        "textColor": "#1f2937",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "text_support_message",
+      "type": "text",
+      "selector": "p[data-element=\"support-message\"]",
+      "label": "Support Message",
+      "defaultValue": "Our support team is here to help you every step of the way.",
+      "value": "Our support team is here to help you every step of the way.",
+      "visible": true,
+      "properties": {
+        "fontSize": "14px",
+        "textColor": "#64748b",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "section_support_container",
+      "type": "section",
+      "selector": "table[data-element=\"support-container\"]",
+      "label": "Support Container",
+      "defaultValue": "",
+      "value": "",
+      "visible": true,
+      "properties": {
+        "backgroundColor": "#f1f5f9",
+        "borderRadius": "8px",
+        "paddingTop": "15px",
+        "paddingRight": "15px",
+        "paddingBottom": "15px",
+        "paddingLeft": "15px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "link_contact_support",
+      "type": "link",
+      "selector": "a[data-element=\"contact-support-link\"]",
+      "label": "Link: Contact Support",
+      "defaultValue": "Contact Support →",
+      "value": "Contact Support →",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#2563eb",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "button_get_started",
+      "type": "button",
+      "selector": "td[data-element=\"primary-cta-button\"]",
+      "label": "Button: Get Started Now",
+      "defaultValue": "Get Started Now",
+      "value": "Get Started Now",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "backgroundColor": "#2563eb",
+        "textColor": "#ffffff",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "borderRadius": "8px",
+        "padding": "14px 28px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_company_name",
+      "type": "text",
+      "selector": "p[data-element=\"footer-company-name\"]",
+      "label": "Footer: Company Name",
+      "defaultValue": "Your Company Name",
+      "value": "Your Company Name",
+      "visible": true,
+      "properties": {
+        "textColor": "#1e293b",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    },
+    {
+      "id": "footer_address",
+      "type": "text",
+      "selector": "p[data-element=\"footer-address\"]",
+      "label": "Footer: Company Address",
+      "defaultValue": "123 Main Street<br />City, State 12345<br />United States",
+      "value": "123 Main Street<br />City, State 12345<br />United States",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": true,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "footer_tagline",
+      "type": "text",
+      "selector": "p[data-element=\"footer-tagline\"]",
+      "label": "Footer: Tagline / Trust Indicators",
+      "defaultValue": "Secure checkout • Fast delivery • Easy returns",
+      "value": "Secure checkout • Fast delivery • Easy returns",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 150
+      }
+    },
+    {
+      "id": "footer_social_facebook",
+      "type": "link",
+      "selector": "a[data-element=\"footer-social-facebook\"]",
+      "label": "Footer: Facebook Link",
+      "defaultValue": "Facebook",
+      "value": "Facebook",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_social_twitter",
+      "type": "link",
+      "selector": "a[data-element=\"footer-social-twitter\"]",
+      "label": "Footer: Twitter Link",
+      "defaultValue": "X",
+      "value": "X",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_social_instagram",
+      "type": "link",
+      "selector": "a[data-element=\"footer-social-instagram\"]",
+      "label": "Footer: Instagram Link",
+      "defaultValue": "Instagram",
+      "value": "Instagram",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_social_linkedin",
+      "type": "link",
+      "selector": "a[data-element=\"footer-social-linkedin\"]",
+      "label": "Footer: LinkedIn Link",
+      "defaultValue": "LinkedIn",
+      "value": "LinkedIn",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#64748b",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_link_privacy",
+      "type": "link",
+      "selector": "a[data-element=\"footer-link-privacy\"]",
+      "label": "Footer: Privacy Policy Link",
+      "defaultValue": "Privacy Policy",
+      "value": "Privacy Policy",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#2563eb",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_link_terms",
+      "type": "link",
+      "selector": "a[data-element=\"footer-link-terms\"]",
+      "label": "Footer: Terms of Service Link",
+      "defaultValue": "Terms of Service",
+      "value": "Terms of Service",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#2563eb",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_link_help",
+      "type": "link",
+      "selector": "a[data-element=\"footer-link-help\"]",
+      "label": "Footer: Help Center Link",
+      "defaultValue": "Help Center",
+      "value": "Help Center",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#2563eb",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "id": "footer_link_unsubscribe",
+      "type": "link",
+      "selector": "a[data-element=\"footer-link-unsubscribe\"]",
+      "label": "Footer: Unsubscribe Link",
+      "defaultValue": "Unsubscribe",
+      "value": "Unsubscribe",
+      "visible": true,
+      "properties": {
+        "url": "#",
+        "textColor": "#2563eb",
+        "fontSize": "12px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": true
+      }
+    },
+    {
+      "id": "footer_contact",
+      "type": "text",
+      "selector": "p[data-element=\"footer-contact\"]",
+      "label": "Footer: Contact Information",
+      "defaultValue": "Questions? Contact us at <a href=\"mailto:support@yourcompany.com\" style=\"color: #2563eb; text-decoration: underline;\">support@yourcompany.com</a>",
+      "value": "Questions? Contact us at <a href=\"mailto:support@yourcompany.com\" style=\"color: #2563eb; text-decoration: underline;\">support@yourcompany.com</a>",
+      "visible": true,
+      "properties": {
+        "textColor": "#64748b",
+        "fontSize": "11px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 200
+      }
+    },
+    {
+      "id": "footer_copyright",
+      "type": "text",
+      "selector": "p[data-element=\"footer-copyright\"]",
+      "label": "Footer: Copyright Notice",
+      "defaultValue": "©YYYY Your Company Name. All rights reserved.",
+      "value": "©YYYY Your Company Name. All rights reserved.",
+      "visible": true,
+      "properties": {
+        "textColor": "#94a3b8",
+        "fontSize": "11px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      },
+      "validation": {
+        "required": false,
+        "maxLength": 100
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "header",
+      "name": "Header",
+      "visible": true,
+      "elements": [
+        "img_1",
+        "heading_main_1",
+        "text_header_subhead"
+      ]
+    },
+    {
+      "id": "hero_image",
+      "name": "Hero Image",
+      "visible": true,
+      "elements": [
+        "img_2"
+      ]
+    },
+    {
+      "id": "text_content",
+      "name": "Text Content",
+      "visible": true,
+      "elements": [
+        "heading_section_1",
+        "text_welcome_description"
+      ]
+    },
+    {
+      "id": "bulletpoints",
+      "name": "Bulletpoints",
+      "visible": true,
+      "elements": [
+        "text_step_1_number",
+        "heading_sub_1",
+        "text_step_1_description",
+        "text_step_2_number",
+        "heading_sub_2",
+        "text_step_2_description",
+        "text_step_3_number",
+        "heading_sub_3",
+        "text_step_3_description"
+      ]
+    },
+    {
+      "id": "cta",
+      "name": "CTA",
+      "visible": true,
+      "elements": [
+        "button_get_started"
+      ]
+    },
+    {
+      "id": "main_content",
+      "name": "Notification Block",
+      "visible": true,
+      "elements": [
+        "heading_sub_4",
+        "text_support_message",
+        "section_support_container",
+        "link_contact_support"
+      ]
+    },
+    {
+      "id": "footer",
+      "name": "Footer",
+      "visible": true,
+      "elements": [
+        "footer_company_name",
+        "footer_address",
+        "footer_tagline",
+        "footer_social_facebook",
+        "footer_social_twitter",
+        "footer_social_instagram",
+        "footer_social_linkedin",
+        "footer_link_privacy",
+        "footer_link_terms",
+        "footer_link_help",
+        "footer_link_unsubscribe",
+        "footer_contact",
+        "footer_copyright"
+      ]
+    }
+  ]
+}

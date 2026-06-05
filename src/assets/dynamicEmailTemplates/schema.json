@@ -1,0 +1,170 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Dynamic Email Template Schema",
+  "description": "Schema for dynamic email templates with editable properties",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "templateId": {
+          "type": "string",
+          "description": "Unique identifier for the template"
+        },
+        "templateName": {
+          "type": "string",
+          "description": "Human-readable name of the template"
+        },
+        "category": {
+          "type": "string",
+          "description": "Template category (e.g., 'ecom', 'free_flow')"
+        },
+        "version": {
+          "type": "string",
+          "description": "Template version"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["templateId", "templateName", "category", "version"]
+    },
+    "html": {
+      "type": "string",
+      "description": "Full HTML template as string"
+    },
+    "elements": {
+      "type": "array",
+      "description": "Array of editable elements",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the element"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["text", "heading", "image", "link", "button", "spacer", "divider", "section"],
+            "description": "Type of element"
+          },
+          "selector": {
+            "type": "string",
+            "description": "CSS selector to identify the element in HTML"
+          },
+          "label": {
+            "type": "string",
+            "description": "Human-readable label for the editor"
+          },
+          "defaultValue": {
+            "type": "string",
+            "description": "Default value for the element"
+          },
+          "value": {
+            "type": "string",
+            "description": "Current value"
+          },
+          "visible": {
+            "type": "boolean",
+            "default": true,
+            "description": "Whether the element should be displayed"
+          },
+          "properties": {
+            "type": "object",
+            "description": "Element-specific properties",
+            "properties": {
+              "url": {
+                "type": "string",
+                "description": "URL for links/images"
+              },
+              "alt": {
+                "type": "string",
+                "description": "Alt text for images"
+              },
+              "width": {
+                "type": "number",
+                "description": "Width in pixels"
+              },
+              "height": {
+                "type": "number",
+                "description": "Height in pixels"
+              },
+              "backgroundColor": {
+                "type": "string",
+                "description": "Background color hex"
+              },
+              "textColor": {
+                "type": "string",
+                "description": "Text color hex"
+              },
+              "fontSize": {
+                "type": "string",
+                "description": "Font size"
+              },
+              "fontFamily": {
+                "type": "string",
+                "description": "Font family"
+              },
+              "textAlign": {
+                "type": "string",
+                "description": "For copy: CSS text-align. For CTAs (buttons / pill links): horizontal placement in the layout (margins or cell alignment)."
+              }
+            }
+          },
+          "validation": {
+            "type": "object",
+            "properties": {
+              "required": {
+                "type": "boolean"
+              },
+              "maxLength": {
+                "type": "number"
+              },
+              "allowedTypes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "required": ["id", "type", "selector", "label"]
+      }
+    },
+    "sections": {
+      "type": "array",
+      "description": "Array of template sections for grouping elements",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "visible": {
+            "type": "boolean",
+            "default": true
+          },
+          "elements": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Array of element IDs belonging to this section"
+          }
+        },
+        "required": ["id", "name"]
+      }
+    }
+  },
+  "required": ["meta", "html", "elements"]
+}
+
