@@ -1,9 +1,9 @@
-import http from 'http';
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
+'use strict';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const http = require('http');
+const fs = require('fs');
+const path = require('path');
+
 const DIST = path.join(__dirname, 'dist');
 const PORT = 3000;
 const HOST = '0.0.0.0';
